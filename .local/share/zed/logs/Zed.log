@@ -1,0 +1,887 @@
+2025-12-21T21:43:46+03:00 INFO  [zed] ========== starting zed version 0.217.3+stable, sha unknown ==========
+2025-12-21T21:43:46+03:00 INFO  [crashes] spawning crash handler process
+2025-12-21T21:43:46+03:00 WARN  [zed::reliability] Minidump endpoint not set
+2025-12-21T21:43:46+03:00 INFO  [util] set environment variables from shell:/usr/bin/bash, path:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+2025-12-21T21:43:46+03:00 INFO  [gpui::platform::linux::platform] activate is not implemented on Linux, ignoring the call
+2025-12-21T21:43:46+03:00 INFO  [sqlez::migrations] Found 9 foreign key relationships to check
+2025-12-21T21:43:46+03:00 ERROR [crates/client/src/client.rs:359] DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2025-12-21T21:43:46+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: PreMultiplied }
+2025-12-21T21:43:46+03:00 INFO  [crashes] connected to crash handler process after 100ms
+2025-12-21T21:43:46+03:00 INFO  [crashes] crash handler registered
+2025-12-21T21:43:46+03:00 INFO  [workspace] Rendered first frame
+2025-12-21T21:43:46+03:00 INFO  [zed::zed] Using GPU: GpuSpecs { is_software_emulated: false, device_name: "AMD Radeon Graphics (RADV RENOIR)", driver_name: "radv", driver_info: "Mesa 25.3.2-arch1.1" }
+2025-12-21T21:43:46+03:00 INFO  [crates/workspace/src/workspace.rs:3034] Couldn't find any enabled panel for the Left dock.
+2025-12-21T21:43:46+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: Ignored }
+2025-12-21T21:43:46+03:00 INFO  [sqlez::migrations] Found 9 foreign key relationships to check
+2025-12-21T21:43:46+03:00 INFO  [sqlez::migrations] Found 10 foreign key relationships to check
+2025-12-21T21:43:46+03:00 INFO  [sqlez::migrations] Found 11 foreign key relationships to check
+2025-12-21T21:43:46+03:00 ERROR [crates/zed/src/main.rs:1442] Is a directory (os error 21)
+2025-12-21T21:43:46+03:00 ERROR [agent] Failed to authenticate provider: Amazon Bedrock: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2025-12-21T21:43:46+03:00 INFO  [extension_host] rebuilt extension index in 953.318µs
+2025-12-21T21:43:46+03:00 INFO  [extension_host] installing extension html latest version
+2025-12-21T21:43:48+03:00 INFO  [extension_host] rebuilt extension index in 3.03936ms
+2025-12-21T21:43:48+03:00 INFO  [extension_host] extensions updated. loading 1, reloading 0, unloading 0
+2025-12-21T21:43:52+03:00 ERROR [crates/zed/src/main.rs:1442] missing field `name` at line 18 column 1
+2025-12-21T21:44:09+03:00 ERROR [crates/zed/src/main.rs:1442] missing field `name` at line 19 column 1
+2025-12-21T21:48:18+03:00 INFO  [sqlez::migrations] Found 16 foreign key relationships to check
+2025-12-21T21:49:50+03:00 INFO  [sqlez::migrations] Found 16 foreign key relationships to check
+2025-12-21T21:50:03+03:00 ERROR [crates/gpui/src/platform/linux/wayland/client.rs:836] OtherError(IoError(Os { code: 32, kind: BrokenPipe, message: "Broken pipe" }))
+2025-12-22T10:52:51+03:00 INFO  [zed] ========== starting zed version 0.217.3+stable, sha unknown ==========
+2025-12-22T10:52:51+03:00 INFO  [crashes] spawning crash handler process
+2025-12-22T10:52:51+03:00 INFO  [util] set environment variables from shell:/usr/bin/bash, path:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+2025-12-22T10:52:51+03:00 INFO  [crashes] connected to crash handler process after 100ms
+2025-12-22T10:52:51+03:00 INFO  [crashes] crash handler registered
+2025-12-22T10:52:51+03:00 WARN  [zed::reliability] Minidump endpoint not set
+2025-12-22T10:52:51+03:00 INFO  [extension_host] extensions updated. loading 1, reloading 0, unloading 0
+2025-12-22T10:52:51+03:00 INFO  [gpui::platform::linux::platform] activate is not implemented on Linux, ignoring the call
+2025-12-22T10:52:51+03:00 ERROR [crates/client/src/client.rs:359] DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2025-12-22T10:52:51+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: PreMultiplied }
+2025-12-22T10:52:51+03:00 INFO  [workspace] Rendered first frame
+2025-12-22T10:52:51+03:00 INFO  [zed::zed] Using GPU: GpuSpecs { is_software_emulated: false, device_name: "AMD Radeon Graphics (RADV RENOIR)", driver_name: "radv", driver_info: "Mesa 25.3.2-arch1.1" }
+2025-12-22T10:52:51+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: Ignored }
+2025-12-22T10:52:51+03:00 ERROR [agent] Failed to authenticate provider: Amazon Bedrock: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2025-12-22T11:50:44+03:00 ERROR [crates/gpui/src/platform/linux/wayland/client.rs:836] OtherError(IoError(Os { code: 104, kind: ConnectionReset, message: "Connection reset by peer" }))
+2025-12-22T12:00:56+03:00 INFO  [zed] ========== starting zed version 0.217.3+stable, sha unknown ==========
+2025-12-22T12:00:56+03:00 INFO  [crashes] spawning crash handler process
+2025-12-22T12:00:56+03:00 WARN  [zed::reliability] Minidump endpoint not set
+2025-12-22T12:00:56+03:00 INFO  [extension_host] extensions updated. loading 1, reloading 0, unloading 0
+2025-12-22T12:00:56+03:00 INFO  [util] set environment variables from shell:/usr/bin/bash, path:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+2025-12-22T12:00:56+03:00 INFO  [gpui::platform::linux::platform] activate is not implemented on Linux, ignoring the call
+2025-12-22T12:00:56+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: PreMultiplied }
+2025-12-22T12:00:56+03:00 INFO  [workspace] Rendered first frame
+2025-12-22T12:00:56+03:00 INFO  [zed::zed] Using GPU: GpuSpecs { is_software_emulated: false, device_name: "AMD Radeon Graphics (RADV RENOIR)", driver_name: "radv", driver_info: "Mesa 25.3.2-arch1.1" }
+2025-12-22T12:00:56+03:00 ERROR [crates/client/src/client.rs:359] DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2025-12-22T12:00:56+03:00 INFO  [crashes] connected to crash handler process after 100ms
+2025-12-22T12:00:56+03:00 INFO  [crashes] crash handler registered
+2025-12-22T12:00:56+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: Ignored }
+2025-12-22T12:00:56+03:00 ERROR [agent] Failed to authenticate provider: Amazon Bedrock: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2025-12-22T13:04:07+03:00 INFO  [zed] ========== starting zed version 0.217.3+stable, sha unknown ==========
+2025-12-22T13:04:07+03:00 INFO  [crashes] spawning crash handler process
+2025-12-22T13:04:07+03:00 WARN  [zed::reliability] Minidump endpoint not set
+2025-12-22T13:04:07+03:00 INFO  [extension_host] extensions updated. loading 1, reloading 0, unloading 0
+2025-12-22T13:04:07+03:00 INFO  [util] set environment variables from shell:/usr/bin/bash, path:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+2025-12-22T13:04:07+03:00 INFO  [gpui::platform::linux::platform] activate is not implemented on Linux, ignoring the call
+2025-12-22T13:04:07+03:00 ERROR [crates/client/src/client.rs:359] DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2025-12-22T13:04:07+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: PreMultiplied }
+2025-12-22T13:04:07+03:00 INFO  [workspace] Rendered first frame
+2025-12-22T13:04:07+03:00 INFO  [zed::zed] Using GPU: GpuSpecs { is_software_emulated: false, device_name: "AMD Radeon Graphics (RADV RENOIR)", driver_name: "radv", driver_info: "Mesa 25.3.2-arch1.1" }
+2025-12-22T13:04:07+03:00 INFO  [crashes] connected to crash handler process after 100ms
+2025-12-22T13:04:07+03:00 INFO  [crashes] crash handler registered
+2025-12-22T13:04:07+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: Ignored }
+2025-12-22T13:04:07+03:00 ERROR [agent] Failed to authenticate provider: Amazon Bedrock: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2025-12-22T13:04:13+03:00 INFO  [zed] ========== starting zed version 0.217.3+stable, sha unknown ==========
+2025-12-22T13:04:13+03:00 INFO  [crashes] spawning crash handler process
+2025-12-22T13:04:13+03:00 WARN  [zed::reliability] Minidump endpoint not set
+2025-12-22T13:04:13+03:00 INFO  [extension_host] extensions updated. loading 1, reloading 0, unloading 0
+2025-12-22T13:04:13+03:00 INFO  [util] set environment variables from shell:/usr/bin/bash, path:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+2025-12-22T13:04:13+03:00 INFO  [gpui::platform::linux::platform] activate is not implemented on Linux, ignoring the call
+2025-12-22T13:04:13+03:00 ERROR [crates/client/src/client.rs:359] DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2025-12-22T13:04:13+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: PreMultiplied }
+2025-12-22T13:04:13+03:00 INFO  [workspace] Rendered first frame
+2025-12-22T13:04:13+03:00 INFO  [zed::zed] Using GPU: GpuSpecs { is_software_emulated: false, device_name: "AMD Radeon Graphics (RADV RENOIR)", driver_name: "radv", driver_info: "Mesa 25.3.2-arch1.1" }
+2025-12-22T13:04:13+03:00 INFO  [crashes] connected to crash handler process after 100ms
+2025-12-22T13:04:13+03:00 INFO  [crashes] crash handler registered
+2025-12-22T13:04:13+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: Ignored }
+2025-12-22T13:04:13+03:00 ERROR [agent] Failed to authenticate provider: Amazon Bedrock: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2025-12-22T13:23:02+03:00 INFO  [zed] ========== starting zed version 0.217.3+stable, sha unknown ==========
+2025-12-22T13:23:02+03:00 INFO  [crashes] spawning crash handler process
+2025-12-22T13:23:02+03:00 WARN  [zed::reliability] Minidump endpoint not set
+2025-12-22T13:23:02+03:00 INFO  [extension_host] extensions updated. loading 1, reloading 0, unloading 0
+2025-12-22T13:23:02+03:00 INFO  [util] set environment variables from shell:/usr/bin/bash, path:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+2025-12-22T13:23:02+03:00 INFO  [gpui::platform::linux::platform] activate is not implemented on Linux, ignoring the call
+2025-12-22T13:23:02+03:00 ERROR [crates/client/src/client.rs:359] DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2025-12-22T13:23:02+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: PreMultiplied }
+2025-12-22T13:23:02+03:00 INFO  [workspace] Rendered first frame
+2025-12-22T13:23:02+03:00 INFO  [zed::zed] Using GPU: GpuSpecs { is_software_emulated: false, device_name: "AMD Radeon Graphics (RADV RENOIR)", driver_name: "radv", driver_info: "Mesa 25.3.2-arch1.1" }
+2025-12-22T13:23:02+03:00 INFO  [crashes] connected to crash handler process after 100ms
+2025-12-22T13:23:02+03:00 INFO  [crashes] crash handler registered
+2025-12-22T13:23:02+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: Ignored }
+2025-12-22T13:23:02+03:00 ERROR [agent] Failed to authenticate provider: Amazon Bedrock: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2025-12-22T13:27:09+03:00 INFO  [zed] ========== starting zed version 0.217.3+stable, sha unknown ==========
+2025-12-22T13:27:09+03:00 INFO  [crashes] spawning crash handler process
+2025-12-22T13:27:09+03:00 WARN  [zed::reliability] Minidump endpoint not set
+2025-12-22T13:27:09+03:00 INFO  [extension_host] extensions updated. loading 1, reloading 0, unloading 0
+2025-12-22T13:27:09+03:00 INFO  [gpui::platform::linux::platform] activate is not implemented on Linux, ignoring the call
+2025-12-22T13:27:09+03:00 INFO  [util] set environment variables from shell:/usr/bin/bash, path:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+2025-12-22T13:27:09+03:00 ERROR [crates/client/src/client.rs:359] DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2025-12-22T13:27:09+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: PreMultiplied }
+2025-12-22T13:27:10+03:00 INFO  [workspace] Rendered first frame
+2025-12-22T13:27:10+03:00 INFO  [zed::zed] Using GPU: GpuSpecs { is_software_emulated: false, device_name: "AMD Radeon Graphics (RADV RENOIR)", driver_name: "radv", driver_info: "Mesa 25.3.2-arch1.1" }
+2025-12-22T13:27:10+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: Ignored }
+2025-12-22T13:27:10+03:00 INFO  [crashes] connected to crash handler process after 100ms
+2025-12-22T13:27:10+03:00 INFO  [crashes] crash handler registered
+2025-12-22T13:27:10+03:00 ERROR [agent] Failed to authenticate provider: Amazon Bedrock: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2025-12-22T13:27:15+03:00 INFO  [zed] ========== starting zed version 0.217.3+stable, sha unknown ==========
+2025-12-22T13:27:15+03:00 INFO  [crashes] spawning crash handler process
+2025-12-22T13:27:15+03:00 WARN  [zed::reliability] Minidump endpoint not set
+2025-12-22T13:27:15+03:00 INFO  [extension_host] extensions updated. loading 1, reloading 0, unloading 0
+2025-12-22T13:27:15+03:00 INFO  [gpui::platform::linux::platform] activate is not implemented on Linux, ignoring the call
+2025-12-22T13:27:15+03:00 INFO  [util] set environment variables from shell:/usr/bin/bash, path:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+2025-12-22T13:27:15+03:00 ERROR [crates/client/src/client.rs:359] DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2025-12-22T13:27:15+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: PreMultiplied }
+2025-12-22T13:27:15+03:00 INFO  [workspace] Rendered first frame
+2025-12-22T13:27:15+03:00 INFO  [zed::zed] Using GPU: GpuSpecs { is_software_emulated: false, device_name: "AMD Radeon Graphics (RADV RENOIR)", driver_name: "radv", driver_info: "Mesa 25.3.2-arch1.1" }
+2025-12-22T13:27:15+03:00 INFO  [crashes] connected to crash handler process after 100ms
+2025-12-22T13:27:15+03:00 INFO  [crashes] crash handler registered
+2025-12-22T13:27:15+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: Ignored }
+2025-12-22T13:27:15+03:00 ERROR [agent] Failed to authenticate provider: Amazon Bedrock: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2025-12-22T14:03:33+03:00 INFO  [zed] ========== starting zed version 0.217.3+stable, sha unknown ==========
+2025-12-22T14:03:34+03:00 INFO  [crashes] spawning crash handler process
+2025-12-22T14:03:34+03:00 INFO  [util] set environment variables from shell:/bin/zsh, path:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+2025-12-22T14:03:34+03:00 INFO  [crashes] connected to crash handler process after 100ms
+2025-12-22T14:03:34+03:00 INFO  [crashes] crash handler registered
+2025-12-22T14:03:34+03:00 WARN  [zed::reliability] Minidump endpoint not set
+2025-12-22T14:03:34+03:00 INFO  [extension_host] extensions updated. loading 1, reloading 0, unloading 0
+2025-12-22T14:03:34+03:00 INFO  [gpui::platform::linux::platform] activate is not implemented on Linux, ignoring the call
+2025-12-22T14:03:34+03:00 ERROR [crates/client/src/client.rs:359] DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2025-12-22T14:03:34+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: PreMultiplied }
+2025-12-22T14:03:34+03:00 INFO  [workspace] Rendered first frame
+2025-12-22T14:03:34+03:00 INFO  [zed::zed] Using GPU: GpuSpecs { is_software_emulated: false, device_name: "AMD Radeon Graphics (RADV RENOIR)", driver_name: "radv", driver_info: "Mesa 25.3.2-arch1.1" }
+2025-12-22T14:03:34+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: Ignored }
+2025-12-22T14:03:34+03:00 ERROR [agent] Failed to authenticate provider: Amazon Bedrock: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2025-12-22T14:12:01+03:00 INFO  [zed::zed] Using GPU: GpuSpecs { is_software_emulated: false, device_name: "AMD Radeon Graphics (RADV RENOIR)", driver_name: "radv", driver_info: "Mesa 25.3.2-arch1.1" }
+2025-12-22T14:12:01+03:00 ERROR [agent] Failed to authenticate provider: Amazon Bedrock: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2025-12-22T15:08:20+03:00 INFO  [zed] ========== starting zed version 0.217.3+stable, sha unknown ==========
+2025-12-22T15:08:20+03:00 INFO  [crashes] spawning crash handler process
+2025-12-22T15:08:20+03:00 WARN  [zed::reliability] Minidump endpoint not set
+2025-12-22T15:08:20+03:00 INFO  [extension_host] extensions updated. loading 1, reloading 0, unloading 0
+2025-12-22T15:08:20+03:00 INFO  [gpui::platform::linux::platform] activate is not implemented on Linux, ignoring the call
+2025-12-22T15:08:20+03:00 INFO  [util] set environment variables from shell:/bin/zsh, path:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+2025-12-22T15:08:20+03:00 ERROR [crates/client/src/client.rs:359] DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2025-12-22T15:08:20+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: PreMultiplied }
+2025-12-22T15:08:20+03:00 INFO  [workspace] Rendered first frame
+2025-12-22T15:08:20+03:00 INFO  [zed::zed] Using GPU: GpuSpecs { is_software_emulated: false, device_name: "AMD Radeon Graphics (RADV RENOIR)", driver_name: "radv", driver_info: "Mesa 25.3.2-arch1.1" }
+2025-12-22T15:08:20+03:00 INFO  [crashes] connected to crash handler process after 100ms
+2025-12-22T15:08:20+03:00 INFO  [crashes] crash handler registered
+2025-12-22T15:08:20+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: Ignored }
+2025-12-22T15:08:20+03:00 ERROR [agent] Failed to authenticate provider: Amazon Bedrock: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2025-12-22T15:08:53+03:00 INFO  [extension_host] installing extension toml latest version
+2025-12-22T15:08:54+03:00 INFO  [extension_host] rebuilt extension index in 6.587838ms
+2025-12-22T15:08:54+03:00 INFO  [extension_host] extensions updated. loading 1, reloading 0, unloading 0
+2025-12-22T15:08:54+03:00 ERROR [language] missing required capture(s) in TOML indents TreeSitter query: indent
+2025-12-22T15:08:54+03:00 WARN  [language] unrecognized capture name 'comment' in TOML textobjects TreeSitter query
+2025-12-22T17:06:06+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: PreMultiplied }
+2025-12-22T17:06:06+03:00 INFO  [zed::zed] Using GPU: GpuSpecs { is_software_emulated: false, device_name: "AMD Radeon Graphics (RADV RENOIR)", driver_name: "radv", driver_info: "Mesa 25.3.2-arch1.1" }
+2025-12-22T17:06:06+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: Ignored }
+2025-12-22T17:06:07+03:00 ERROR [agent] Failed to authenticate provider: Amazon Bedrock: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2025-12-22T17:06:12+03:00 INFO  [sqlez::migrations] Found 17 foreign key relationships to check
+2025-12-22T17:06:23+03:00 ERROR [crates/gpui/src/window.rs:1132] window not found
+2025-12-22T17:06:23+03:00 ERROR [crates/gpui/src/window.rs:1139] window not found
+2025-12-22T17:27:48+03:00 ERROR [crates/zed/src/zed.rs:825] Canceled
+2025-12-22T17:40:32+03:00 INFO  [zed] ========== starting zed version 0.217.3+stable, sha unknown ==========
+2025-12-22T17:40:32+03:00 INFO  [crashes] spawning crash handler process
+2025-12-22T17:40:32+03:00 WARN  [zed::reliability] Minidump endpoint not set
+2025-12-22T17:40:32+03:00 INFO  [extension_host] extensions updated. loading 2, reloading 0, unloading 0
+2025-12-22T17:40:33+03:00 INFO  [gpui::platform::linux::platform] activate is not implemented on Linux, ignoring the call
+2025-12-22T17:40:33+03:00 INFO  [util] set environment variables from shell:/bin/zsh, path:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+2025-12-22T17:40:33+03:00 ERROR [crates/client/src/client.rs:359] DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2025-12-22T17:40:33+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: PreMultiplied }
+2025-12-22T17:40:33+03:00 INFO  [workspace] Rendered first frame
+2025-12-22T17:40:33+03:00 INFO  [zed::zed] Using GPU: GpuSpecs { is_software_emulated: false, device_name: "AMD Radeon Graphics (RADV RENOIR)", driver_name: "radv", driver_info: "Mesa 25.3.2-arch1.1" }
+2025-12-22T17:40:33+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: Ignored }
+2025-12-22T17:40:33+03:00 INFO  [crashes] connected to crash handler process after 100ms
+2025-12-22T17:40:33+03:00 INFO  [crashes] crash handler registered
+2025-12-22T17:40:33+03:00 ERROR [agent] Failed to authenticate provider: Amazon Bedrock: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2025-12-23T00:44:37+03:00 INFO  [zed] ========== starting zed version 0.217.3+stable, sha unknown ==========
+2025-12-23T00:44:37+03:00 INFO  [crashes] spawning crash handler process
+2025-12-23T00:44:37+03:00 INFO  [util] set environment variables from shell:/bin/zsh, path:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+2025-12-23T00:44:37+03:00 INFO  [crashes] connected to crash handler process after 100ms
+2025-12-23T00:44:37+03:00 INFO  [crashes] crash handler registered
+2025-12-23T00:44:37+03:00 WARN  [zed::reliability] Minidump endpoint not set
+2025-12-23T00:44:37+03:00 INFO  [extension_host] extensions updated. loading 2, reloading 0, unloading 0
+2025-12-23T00:44:37+03:00 INFO  [gpui::platform::linux::platform] activate is not implemented on Linux, ignoring the call
+2025-12-23T00:44:37+03:00 ERROR [crates/client/src/client.rs:359] DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2025-12-23T00:44:37+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: PreMultiplied }
+2025-12-23T00:44:37+03:00 INFO  [workspace] Rendered first frame
+2025-12-23T00:44:38+03:00 INFO  [zed::zed] Using GPU: GpuSpecs { is_software_emulated: false, device_name: "AMD Radeon Graphics (RADV RENOIR)", driver_name: "radv", driver_info: "Mesa 25.3.2-arch1.1" }
+2025-12-23T00:44:38+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: Ignored }
+2025-12-23T00:44:38+03:00 ERROR [agent] Failed to authenticate provider: Amazon Bedrock: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2025-12-23T00:45:21+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: PreMultiplied }
+2025-12-23T00:45:21+03:00 INFO  [zed::zed] Using GPU: GpuSpecs { is_software_emulated: false, device_name: "AMD Radeon Graphics (RADV RENOIR)", driver_name: "radv", driver_info: "Mesa 25.3.2-arch1.1" }
+2025-12-23T00:45:21+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: Ignored }
+2025-12-23T00:45:21+03:00 ERROR [agent] Failed to authenticate provider: Amazon Bedrock: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2025-12-23T00:45:32+03:00 INFO  [project::prettier_store] Initializing default prettier with plugins {}
+2025-12-23T00:45:33+03:00 INFO  [node_runtime] using Node.js found on PATH: SystemNodeRuntime { node: "/usr/bin/node", npm: "/usr/bin/npm", global_node_modules: "/usr/lib/node_modules\n", scratch_dir: "/home/arch-home/dthkash/.local/share/zed/node" }
+2025-12-23T00:45:34+03:00 INFO  [project::prettier_store] Installing default prettier and plugins: [("prettier", "3.7.4")]
+2025-12-23T00:45:36+03:00 INFO  [project::prettier_store] Initialized default prettier with plugins: {}
+2025-12-23T00:47:29+03:00 INFO  [sqlez::migrations] Found 18 foreign key relationships to check
+2025-12-23T00:48:19+03:00 ERROR [crates/editor/src/editor.rs:3440] persisting editor selections for editor 55834575369, workspace WorkspaceId(6)
+
+Caused by:
+    Sqlite call failed with code 787 and message: Some("FOREIGN KEY constraint failed")
+2025-12-23T00:48:32+03:00 ERROR [crates/editor/src/editor.rs:3440] persisting editor selections for editor 55834575369, workspace WorkspaceId(6)
+
+Caused by:
+    Sqlite call failed with code 787 and message: Some("FOREIGN KEY constraint failed")
+2025-12-23T00:48:33+03:00 ERROR [crates/editor/src/editor.rs:3440] persisting editor selections for editor 55834575369, workspace WorkspaceId(6)
+
+Caused by:
+    Sqlite call failed with code 787 and message: Some("FOREIGN KEY constraint failed")
+2025-12-23T00:48:36+03:00 ERROR [crates/editor/src/editor.rs:3440] persisting editor selections for editor 55834575369, workspace WorkspaceId(6)
+
+Caused by:
+    Sqlite call failed with code 787 and message: Some("FOREIGN KEY constraint failed")
+2025-12-23T00:48:38+03:00 ERROR [crates/editor/src/editor.rs:3440] persisting editor selections for editor 55834575369, workspace WorkspaceId(6)
+
+Caused by:
+    Sqlite call failed with code 787 and message: Some("FOREIGN KEY constraint failed")
+2025-12-23T00:48:38+03:00 ERROR [crates/editor/src/editor.rs:3440] persisting editor selections for editor 55834575369, workspace WorkspaceId(6)
+
+Caused by:
+    Sqlite call failed with code 787 and message: Some("FOREIGN KEY constraint failed")
+2025-12-23T00:48:41+03:00 ERROR [crates/editor/src/editor.rs:3440] persisting editor selections for editor 55834575369, workspace WorkspaceId(6)
+
+Caused by:
+    Sqlite call failed with code 787 and message: Some("FOREIGN KEY constraint failed")
+2025-12-23T00:48:41+03:00 ERROR [crates/editor/src/editor.rs:3440] persisting editor selections for editor 55834575369, workspace WorkspaceId(6)
+
+Caused by:
+    Sqlite call failed with code 787 and message: Some("FOREIGN KEY constraint failed")
+2025-12-23T00:48:44+03:00 ERROR [crates/editor/src/editor.rs:3440] persisting editor selections for editor 55834575369, workspace WorkspaceId(6)
+
+Caused by:
+    Sqlite call failed with code 787 and message: Some("FOREIGN KEY constraint failed")
+2025-12-23T00:48:49+03:00 ERROR [crates/editor/src/editor.rs:3440] persisting editor selections for editor 55834575369, workspace WorkspaceId(6)
+
+Caused by:
+    Sqlite call failed with code 787 and message: Some("FOREIGN KEY constraint failed")
+2025-12-23T00:48:49+03:00 ERROR [crates/editor/src/editor.rs:3440] persisting editor selections for editor 55834575369, workspace WorkspaceId(6)
+
+Caused by:
+    Sqlite call failed with code 787 and message: Some("FOREIGN KEY constraint failed")
+2025-12-23T00:48:52+03:00 ERROR [crates/editor/src/editor.rs:3440] persisting editor selections for editor 55834575369, workspace WorkspaceId(6)
+
+Caused by:
+    Sqlite call failed with code 787 and message: Some("FOREIGN KEY constraint failed")
+2025-12-23T00:48:57+03:00 ERROR [crates/editor/src/editor.rs:3440] persisting editor selections for editor 55834575369, workspace WorkspaceId(6)
+
+Caused by:
+    Sqlite call failed with code 787 and message: Some("FOREIGN KEY constraint failed")
+2025-12-23T00:51:45+03:00 ERROR [crates/editor/src/editor.rs:3440] persisting editor selections for editor 55834575369, workspace WorkspaceId(6)
+
+Caused by:
+    Sqlite call failed with code 787 and message: Some("FOREIGN KEY constraint failed")
+2025-12-23T00:52:31+03:00 ERROR [git_ui::git_panel] Error while pushing Operation cancelled by user
+2025-12-23T00:54:52+03:00 ERROR [gpui::platform::linux::platform] Failed to open with dbus: Portal request failed: org.freedesktop.zbus.Error: The name is not activatable
+2025-12-23T00:54:52+03:00 ERROR [gpui::platform::linux::platform] Failed to open with "xdg-open": No such file or directory (os error 2)
+2025-12-23T00:58:26+03:00 ERROR [git_ui::git_panel] Error while pushing remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Authentication failed for 'https://github.com/its-kamash/hypr-land-config.git/'
+
+2025-12-23T00:58:47+03:00 ERROR [git_ui::git_panel] Error while pushing Operation cancelled by user
+2025-12-23T01:03:57+03:00 ERROR [crates/gpui/src/window.rs:1127] window not found
+2025-12-23T01:03:57+03:00 ERROR [crates/gpui/src/window.rs:1139] window not found
+2025-12-23T01:25:20+03:00 INFO  [zed] ========== starting zed version 0.217.3+stable, sha unknown ==========
+2025-12-23T01:25:20+03:00 INFO  [crashes] spawning crash handler process
+2025-12-23T01:25:20+03:00 WARN  [zed::reliability] Minidump endpoint not set
+2025-12-23T01:25:20+03:00 INFO  [extension_host] extensions updated. loading 2, reloading 0, unloading 0
+2025-12-23T01:25:20+03:00 INFO  [gpui::platform::linux::platform] activate is not implemented on Linux, ignoring the call
+2025-12-23T01:25:20+03:00 ERROR [crates/client/src/client.rs:359] DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2025-12-23T01:25:20+03:00 INFO  [util] set environment variables from shell:/bin/zsh, path:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+2025-12-23T01:25:20+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: PreMultiplied }
+2025-12-23T01:25:20+03:00 INFO  [workspace] Rendered first frame
+2025-12-23T01:25:20+03:00 INFO  [zed::zed] Using GPU: GpuSpecs { is_software_emulated: false, device_name: "AMD Radeon Graphics (RADV RENOIR)", driver_name: "radv", driver_info: "Mesa 25.3.2-arch1.1" }
+2025-12-23T01:25:20+03:00 INFO  [crashes] connected to crash handler process after 100ms
+2025-12-23T01:25:20+03:00 INFO  [crashes] crash handler registered
+2025-12-23T01:25:20+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: Ignored }
+2025-12-23T01:25:20+03:00 ERROR [agent] Failed to authenticate provider: Amazon Bedrock: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2025-12-23T01:25:36+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: PreMultiplied }
+2025-12-23T01:25:36+03:00 INFO  [zed::zed] Using GPU: GpuSpecs { is_software_emulated: false, device_name: "AMD Radeon Graphics (RADV RENOIR)", driver_name: "radv", driver_info: "Mesa 25.3.2-arch1.1" }
+2025-12-23T01:25:36+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: Ignored }
+2025-12-23T01:25:37+03:00 ERROR [agent] Failed to authenticate provider: Amazon Bedrock: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2025-12-23T01:26:42+03:00 ERROR [git_ui::git_panel] Error while pushing Operation cancelled by user
+2025-12-23T01:26:53+03:00 ERROR [git_ui::git_panel] Error while pushing Operation cancelled by user
+2025-12-23T02:27:23+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: PreMultiplied }
+2025-12-23T02:27:23+03:00 INFO  [zed::zed] Using GPU: GpuSpecs { is_software_emulated: false, device_name: "AMD Radeon Graphics (RADV RENOIR)", driver_name: "radv", driver_info: "Mesa 25.3.2-arch1.1" }
+2025-12-23T02:27:23+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: Ignored }
+2025-12-23T02:27:23+03:00 ERROR [agent] Failed to authenticate provider: Amazon Bedrock: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2025-12-23T02:27:35+03:00 ERROR [language] missing required capture(s) in TOML indents TreeSitter query: indent
+2025-12-23T02:27:35+03:00 WARN  [language] unrecognized capture name 'comment' in TOML textobjects TreeSitter query
+2025-12-23T02:32:43+03:00 INFO  [extension_host] installing extension log latest version
+2025-12-23T02:32:45+03:00 INFO  [extension_host] rebuilt extension index in 7.830067ms
+2025-12-23T02:32:45+03:00 INFO  [extension_host] extensions updated. loading 1, reloading 0, unloading 0
+2025-12-23T02:33:17+03:00 ERROR [crates/languages/src/json.rs:318] missing executable in directory "/home/arch-home/dthkash/.local/share/zed/languages/json-language-server/node_modules/vscode-langservers-extracted/bin/vscode-json-language-server"
+2025-12-23T02:33:17+03:00 INFO  [node_runtime] using Node.js found on PATH: SystemNodeRuntime { node: "/usr/bin/node", npm: "/usr/bin/npm", global_node_modules: "/usr/lib/node_modules\n", scratch_dir: "/home/arch-home/dthkash/.local/share/zed/node" }
+2025-12-23T02:33:24+03:00 INFO  [lsp] starting language server process. binary path: "/usr/bin/node", working directory: "/home/arch-home/dthkash/.config", args: ["/home/arch-home/dthkash/.local/share/zed/languages/json-language-server/node_modules/vscode-langservers-extracted/bin/vscode-json-language-server", "--stdio"]
+2025-12-23T02:54:34+03:00 INFO  [zed] ========== starting zed version 0.217.3+stable, sha unknown ==========
+2025-12-23T02:54:34+03:00 INFO  [crashes] spawning crash handler process
+2025-12-23T02:54:34+03:00 INFO  [util] set environment variables from shell:/bin/zsh, path:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+2025-12-23T02:54:34+03:00 WARN  [zed::reliability] Minidump endpoint not set
+2025-12-23T02:54:34+03:00 INFO  [extension_host] extensions updated. loading 3, reloading 0, unloading 0
+2025-12-23T02:54:34+03:00 INFO  [crashes] connected to crash handler process after 100ms
+2025-12-23T02:54:34+03:00 INFO  [crashes] crash handler registered
+2025-12-23T02:54:34+03:00 INFO  [gpui::platform::linux::platform] activate is not implemented on Linux, ignoring the call
+2025-12-23T02:54:35+03:00 ERROR [crates/client/src/client.rs:359] DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2025-12-23T02:54:35+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: PreMultiplied }
+2025-12-23T02:54:35+03:00 INFO  [workspace] Rendered first frame
+2025-12-23T02:54:35+03:00 INFO  [zed::zed] Using GPU: GpuSpecs { is_software_emulated: false, device_name: "AMD Radeon Graphics (RADV RENOIR)", driver_name: "radv", driver_info: "Mesa 25.3.2-arch1.1" }
+2025-12-23T02:54:35+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: Ignored }
+2025-12-23T02:54:35+03:00 ERROR [agent] Failed to authenticate provider: Amazon Bedrock: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2025-12-23T02:55:31+03:00 ERROR [crates/languages/src/json.rs:460] no cached binary
+2025-12-23T02:55:31+03:00 INFO  [node_runtime] using Node.js found on PATH: SystemNodeRuntime { node: "/usr/bin/node", npm: "/usr/bin/npm", global_node_modules: "/usr/lib/node_modules\n", scratch_dir: "/home/arch-home/dthkash/.local/share/zed/node" }
+2025-12-23T02:55:32+03:00 INFO  [lsp] starting language server process. binary path: "/usr/bin/node", working directory: "/home/arch-home/dthkash/myProjects/dotfiles", args: ["/home/arch-home/dthkash/.local/share/zed/languages/json-language-server/node_modules/vscode-langservers-extracted/bin/vscode-json-language-server", "--stdio"]
+2025-12-23T02:55:43+03:00 INFO  [lsp] starting language server process. binary path: "/home/arch-home/dthkash/.local/share/zed/languages/package-version-server/package-version-server-v0.0.10", working directory: "/home/arch-home/dthkash/myProjects/dotfiles", args: []
+2025-12-23T02:55:45+03:00 INFO  [project::prettier_store] Starting prettier at path "/home/arch-home/dthkash/.local/share/zed/prettier"
+2025-12-23T02:55:45+03:00 INFO  [lsp] starting language server process. binary path: "/usr/bin/node", working directory: "/home/arch-home/dthkash/.local/share/zed/prettier", args: ["/home/arch-home/dthkash/.local/share/zed/prettier/prettier_server.js", "/home/arch-home/dthkash/.local/share/zed/prettier"]
+2025-12-23T02:55:46+03:00 INFO  [project::prettier_store] Started default prettier in "/home/arch-home/dthkash/.local/share/zed/prettier"
+2025-12-23T02:58:50+03:00 INFO  [project::lsp_store] stopping language server package-version-server
+2025-12-23T02:58:50+03:00 ERROR [lsp] Shutdown request failure, server package-version-server (id 2): Unexpected params: null
+2025-12-23T02:58:50+03:00 ERROR [crates/languages/src/css.rs:190] missing executable in directory "/home/arch-home/dthkash/.local/share/zed/languages/vscode-css-language-server/node_modules/vscode-langservers-extracted/bin/vscode-css-language-server"
+2025-12-23T02:58:50+03:00 ERROR [crates/languages/src/tailwind.rs:227] missing executable in directory "/home/arch-home/dthkash/.local/share/zed/languages/tailwindcss-language-server/node_modules/.bin/tailwindcss-language-server"
+2025-12-23T02:58:54+03:00 ERROR [crates/languages/src/css.rs:190] missing executable in directory "/home/arch-home/dthkash/.local/share/zed/languages/vscode-css-language-server/node_modules/vscode-langservers-extracted/bin/vscode-css-language-server"
+2025-12-23T02:58:54+03:00 ERROR [crates/languages/src/tailwind.rs:227] missing executable in directory "/home/arch-home/dthkash/.local/share/zed/languages/tailwindcss-language-server/node_modules/.bin/tailwindcss-language-server"
+2025-12-23T02:58:58+03:00 INFO  [lsp] starting language server process. binary path: "/usr/bin/node", working directory: "/home/arch-home/dthkash/myProjects/dotfiles", args: ["/home/arch-home/dthkash/.local/share/zed/languages/tailwindcss-language-server/node_modules/.bin/tailwindcss-language-server", "--stdio"]
+2025-12-23T02:58:59+03:00 INFO  [lsp] starting language server process. binary path: "/usr/bin/node", working directory: "/home/arch-home/dthkash/myProjects/dotfiles", args: ["/home/arch-home/dthkash/.local/share/zed/languages/vscode-css-language-server/node_modules/vscode-langservers-extracted/bin/vscode-css-language-server", "--stdio"]
+2025-12-23T03:13:34+03:00 INFO  [project::git_store] head branch after scan is Some(Branch { is_head: true, ref_name: "refs/heads/development", upstream: Some(Upstream { ref_name: "refs/remotes/origin/development", tracking: Tracked(UpstreamTrackingStatus { ahead: 0, behind: 0 }) }), most_recent_commit: Some(CommitSummary { sha: "411809c921c42f030aa6b60fd66a943f2482548e", subject: "Added waybar and the default config.jsonc and styles.css files", commit_timestamp: 1766448803, author_name: "its-kamash", has_parent: true }) })
+2025-12-23T03:13:57+03:00 WARN  [simplecss] The @media rule is not supported. Skipped.
+2025-12-23T03:15:13+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: PreMultiplied }
+2025-12-23T03:15:13+03:00 INFO  [zed::zed] Using GPU: GpuSpecs { is_software_emulated: false, device_name: "AMD Radeon Graphics (RADV RENOIR)", driver_name: "radv", driver_info: "Mesa 25.3.2-arch1.1" }
+2025-12-23T03:15:13+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: Ignored }
+2025-12-23T03:15:13+03:00 ERROR [agent] Failed to authenticate provider: Amazon Bedrock: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2025-12-23T03:19:39+03:00 WARN  [lsp::input_handler] failed to deserialize LSP message:
+{"jsonrpc":"2.0","result":{}}
+2025-12-23T03:19:39+03:00 ERROR [lsp] Shutdown request failure, server prettier (id 3): Error: Unknown method: shutdown
+While handling prettier request: {"jsonrpc":"2.0","id":7,"method":"shutdown","params":null}
+2025-12-23T03:19:40+03:00 ERROR [crates/fs/src/fs_watcher.rs:216] Error { kind: Io(Os { code: 22, kind: InvalidInput, message: "Invalid argument" }), paths: ["/home/arch-home/dthkash/myProjects/dotfiles/hypr"] }
+2025-12-23T03:19:40+03:00 ERROR [crates/fs/src/fs_watcher.rs:216] Error { kind: Io(Os { code: 22, kind: InvalidInput, message: "Invalid argument" }), paths: ["/home/arch-home/dthkash/myProjects/dotfiles/hypr/conf"] }
+2025-12-23T13:27:10+03:00 INFO  [zed] ========== starting zed version 0.217.3+stable, sha unknown ==========
+2025-12-23T13:27:10+03:00 INFO  [crashes] spawning crash handler process
+2025-12-23T13:27:10+03:00 INFO  [util] set environment variables from shell:/bin/zsh, path:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+2025-12-23T13:27:10+03:00 INFO  [crashes] connected to crash handler process after 100ms
+2025-12-23T13:27:10+03:00 INFO  [crashes] crash handler registered
+2025-12-23T13:27:10+03:00 WARN  [zed::reliability] Minidump endpoint not set
+2025-12-23T13:27:10+03:00 INFO  [extension_host] extensions updated. loading 3, reloading 0, unloading 0
+2025-12-23T13:27:10+03:00 INFO  [gpui::platform::linux::platform] activate is not implemented on Linux, ignoring the call
+2025-12-23T13:27:10+03:00 ERROR [crates/client/src/client.rs:359] DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2025-12-23T13:27:10+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: PreMultiplied }
+2025-12-23T13:27:10+03:00 INFO  [workspace] Rendered first frame
+2025-12-23T13:27:10+03:00 INFO  [zed::zed] Using GPU: GpuSpecs { is_software_emulated: false, device_name: "AMD Radeon Graphics (RADV RENOIR)", driver_name: "radv", driver_info: "Mesa 25.3.2-arch1.1" }
+2025-12-23T13:27:10+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: Ignored }
+2025-12-23T13:27:10+03:00 ERROR [agent] Failed to authenticate provider: Amazon Bedrock: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2025-12-23T14:21:03+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: PreMultiplied }
+2025-12-23T14:21:03+03:00 INFO  [zed::zed] Using GPU: GpuSpecs { is_software_emulated: false, device_name: "AMD Radeon Graphics (RADV RENOIR)", driver_name: "radv", driver_info: "Mesa 25.3.2-arch1.1" }
+2025-12-23T14:21:04+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: Ignored }
+2025-12-23T14:21:04+03:00 ERROR [agent] Failed to authenticate provider: Amazon Bedrock: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2025-12-23T14:21:29+03:00 ERROR [crates/gpui/src/window.rs:1132] window not found
+2025-12-23T14:21:29+03:00 ERROR [crates/gpui/src/window.rs:1139] window not found
+2025-12-23T14:24:25+03:00 ERROR [crates/client/src/telemetry.rs:577] error sending request for url (https://api.zed.dev/telemetry/events?)
+
+Caused by:
+    0: client error (Connect)
+    1: dns error
+    2: failed to lookup address information: Temporary failure in name resolution
+2025-12-23T14:29:00+03:00 ERROR [crates/client/src/telemetry.rs:577] error sending request for url (https://api.zed.dev/telemetry/events?)
+
+Caused by:
+    0: client error (Connect)
+    1: dns error
+    2: failed to lookup address information: Temporary failure in name resolution
+2025-12-23T14:34:02+03:00 ERROR [crates/client/src/telemetry.rs:577] error sending request for url (https://api.zed.dev/telemetry/events?)
+
+Caused by:
+    0: client error (Connect)
+    1: dns error
+    2: failed to lookup address information: Temporary failure in name resolution
+2025-12-23T14:39:17+03:00 ERROR [crates/client/src/telemetry.rs:577] error sending request for url (https://api.zed.dev/telemetry/events?)
+
+Caused by:
+    0: client error (Connect)
+    1: dns error
+    2: failed to lookup address information: Temporary failure in name resolution
+2025-12-23T14:44:29+03:00 ERROR [crates/client/src/telemetry.rs:577] error sending request for url (https://api.zed.dev/telemetry/events?)
+
+Caused by:
+    0: client error (Connect)
+    1: dns error
+    2: failed to lookup address information: Temporary failure in name resolution
+2025-12-23T14:49:29+03:00 ERROR [crates/client/src/telemetry.rs:577] error sending request for url (https://api.zed.dev/telemetry/events?)
+
+Caused by:
+    0: client error (Connect)
+    1: dns error
+    2: failed to lookup address information: Temporary failure in name resolution
+2025-12-23T14:50:06+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: PreMultiplied }
+2025-12-23T14:50:06+03:00 INFO  [zed::zed] Using GPU: GpuSpecs { is_software_emulated: false, device_name: "AMD Radeon Graphics (RADV RENOIR)", driver_name: "radv", driver_info: "Mesa 25.3.2-arch1.1" }
+2025-12-23T14:50:06+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: Ignored }
+2025-12-23T14:50:06+03:00 ERROR [agent] Failed to authenticate provider: Amazon Bedrock: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2025-12-23T14:50:21+03:00 INFO  [language] failed to fetch newest version of language server LanguageServerName("package-version-server"). error: error fetching latest release
+
+Caused by:
+    0: error sending request for url (https://api.github.com/repos/zed-industries/package-version-server/releases)
+    1: client error (Connect)
+    2: dns error
+    3: failed to lookup address information: Temporary failure in name resolution, falling back to using "/home/arch-home/dthkash/.local/share/zed/languages/package-version-server/package-version-server-v0.0.10"
+2025-12-23T14:50:21+03:00 INFO  [lsp] starting language server process. binary path: "/home/arch-home/dthkash/.local/share/zed/languages/package-version-server/package-version-server-v0.0.10", working directory: "/home/arch-home/dthkash/.cache", args: []
+2025-12-23T14:50:22+03:00 INFO  [node_runtime] using Node.js found on PATH: SystemNodeRuntime { node: "/usr/bin/node", npm: "/usr/bin/npm", global_node_modules: "/usr/lib/node_modules\n", scratch_dir: "/home/arch-home/dthkash/.local/share/zed/node" }
+2025-12-23T14:50:25+03:00 WARN  [workspace] Failed to open a project item: opening project path "/home/arch-home/dthkash/.cache/fontconfig/a41116dafaf8b233ac2c61cb73f2ea5f-le64.cache-9": Opening path "fontconfig/a41116dafaf8b233ac2c61cb73f2ea5f-le64.cache-9"
+2025-12-23T14:50:29+03:00 INFO  [lsp] starting language server process. binary path: "/usr/bin/node", working directory: "/home/arch-home/dthkash/.cache", args: ["/home/arch-home/dthkash/.local/share/zed/languages/json-language-server/node_modules/vscode-langservers-extracted/bin/vscode-json-language-server", "--stdio"]
+2025-12-23T14:50:29+03:00 ERROR [crates/gpui/src/platform/linux/platform.rs:473] invoking xdg-open
+
+Caused by:
+    No such file or directory (os error 2)
+2025-12-23T14:50:30+03:00 ERROR [crates/gpui/src/platform/linux/platform.rs:473] invoking xdg-open
+
+Caused by:
+    No such file or directory (os error 2)
+2025-12-23T14:50:34+03:00 ERROR [crates/gpui/src/platform/linux/platform.rs:473] invoking xdg-open
+
+Caused by:
+    No such file or directory (os error 2)
+2025-12-23T14:50:47+03:00 ERROR [crates/gpui/src/window.rs:1203] window not found
+2025-12-23T14:50:47+03:00 ERROR [lsp] Shutdown request failure, server package-version-server (id 2): Unexpected params: null
+2025-12-23T14:55:21+03:00 ERROR [crates/client/src/telemetry.rs:577] error sending request for url (https://api.zed.dev/telemetry/events?)
+
+Caused by:
+    0: client error (Connect)
+    1: dns error
+    2: failed to lookup address information: Temporary failure in name resolution
+2025-12-23T14:57:20+03:00 INFO  [lsp] starting language server process. binary path: "/usr/bin/node", working directory: "/home/arch-home/dthkash/extrnl.files/dotfiles", args: ["/home/arch-home/dthkash/.local/share/zed/languages/vscode-css-language-server/node_modules/vscode-langservers-extracted/bin/vscode-css-language-server", "--stdio"]
+2025-12-23T14:57:20+03:00 INFO  [lsp] starting language server process. binary path: "/usr/bin/node", working directory: "/home/arch-home/dthkash/extrnl.files/dotfiles", args: ["/home/arch-home/dthkash/.local/share/zed/languages/tailwindcss-language-server/node_modules/.bin/tailwindcss-language-server", "--stdio"]
+2025-12-23T14:57:24+03:00 INFO  [lsp] starting language server process. binary path: "/usr/bin/node", working directory: "/home/arch-home/dthkash/extrnl.files/dotfiles", args: ["/home/arch-home/dthkash/.local/share/zed/languages/json-language-server/node_modules/vscode-langservers-extracted/bin/vscode-json-language-server", "--stdio"]
+2025-12-23T14:57:24+03:00 INFO  [lsp] starting language server process. binary path: "/home/arch-home/dthkash/.local/share/zed/languages/package-version-server/package-version-server-v0.0.10", working directory: "/home/arch-home/dthkash/extrnl.files/dotfiles", args: []
+2025-12-23T14:59:22+03:00 ERROR [crates/client/src/telemetry.rs:577] error sending request for url (https://api.zed.dev/telemetry/events?)
+
+Caused by:
+    0: client error (Connect)
+    1: dns error
+    2: failed to lookup address information: Temporary failure in name resolution
+2025-12-23T15:00:22+03:00 INFO  [lsp] Language server with id 4 sent unhandled notification @/tailwindCSS/projectInitialized:
+[
+  null
+]
+2025-12-23T15:04:23+03:00 INFO  [lsp] Language server with id 4 sent unhandled notification @/tailwindCSS/projectInitialized:
+[
+  null
+]
+2025-12-23T15:11:12+03:00 WARN  [workspace] Failed to open a project item: opening project path "/home/arch-home/dthkash/extrnl.files/dotfiles/setup/cursors/ArcDusk-cursors.zip": Opening path "setup/cursors/ArcDusk-cursors.zip"
+2025-12-23T15:11:13+03:00 WARN  [workspace] Failed to open a project item: opening project path "/home/arch-home/dthkash/extrnl.files/dotfiles/setup/cursors/ArcAurora-cursors.zip": Opening path "setup/cursors/ArcAurora-cursors.zip"
+2025-12-23T15:11:14+03:00 WARN  [workspace] Failed to open a project item: opening project path "/home/arch-home/dthkash/extrnl.files/dotfiles/setup/cursors/ArcDusk-cursors.zip": Opening path "setup/cursors/ArcDusk-cursors.zip"
+2025-12-23T15:11:19+03:00 WARN  [workspace] Failed to open a project item: opening project path "/home/arch-home/dthkash/extrnl.files/dotfiles/setup/packages/eza": Opening path "setup/packages/eza"
+2025-12-23T15:11:19+03:00 WARN  [workspace] Failed to open a project item: opening project path "/home/arch-home/dthkash/extrnl.files/dotfiles/setup/packages/matugen": Opening path "setup/packages/matugen"
+2025-12-23T15:11:42+03:00 INFO  [project::lsp_store] stopping language server vscode-css-language-server
+2025-12-23T15:11:42+03:00 INFO  [project::lsp_store] stopping language server tailwindcss-language-server
+2025-12-23T15:11:42+03:00 INFO  [project::lsp_store] stopping language server package-version-server
+2025-12-23T15:11:42+03:00 ERROR [lsp] Shutdown request failure, server package-version-server (id 6): Unexpected params: null
+2025-12-23T15:11:42+03:00 INFO  [lsp] Language server with id 4 sent unhandled notification @/tailwindCSS/projectsDestroyed:
+[
+  null
+]
+2025-12-23T15:11:42+03:00 ERROR [project::lsp_store] Failed to unregister server capabilities: no server 4 found
+2025-12-23T15:11:43+03:00 INFO  [project::lsp_store] stopping language server json-language-server
+2025-12-23T15:14:44+03:00 INFO  [lsp] starting language server process. binary path: "/usr/bin/node", working directory: "/home/arch-home/dthkash/extrnl.files/dotfiles", args: ["/home/arch-home/dthkash/.local/share/zed/languages/json-language-server/node_modules/vscode-langservers-extracted/bin/vscode-json-language-server", "--stdio"]
+2025-12-23T15:14:44+03:00 INFO  [lsp] starting language server process. binary path: "/home/arch-home/dthkash/.local/share/zed/languages/package-version-server/package-version-server-v0.0.10", working directory: "/home/arch-home/dthkash/extrnl.files/dotfiles", args: []
+2025-12-23T15:14:46+03:00 INFO  [project::lsp_store] stopping language server json-language-server
+2025-12-23T15:14:46+03:00 INFO  [project::lsp_store] stopping language server package-version-server
+2025-12-23T15:14:46+03:00 ERROR [lsp] Shutdown request failure, server package-version-server (id 8): Unexpected params: null
+2025-12-23T15:15:16+03:00 INFO  [extension_host] installing extension git-firefly latest version
+2025-12-23T15:15:18+03:00 INFO  [extension_host] rebuilt extension index in 11.546151ms
+2025-12-23T15:15:18+03:00 INFO  [extension_host] extensions updated. loading 1, reloading 0, unloading 0
+2025-12-23T15:17:00+03:00 INFO  [lsp] starting language server process. binary path: "/usr/bin/node", working directory: "/home/arch-home/dthkash/extrnl.files/dotfiles", args: ["/home/arch-home/dthkash/.local/share/zed/languages/vscode-css-language-server/node_modules/vscode-langservers-extracted/bin/vscode-css-language-server", "--stdio"]
+2025-12-23T15:17:00+03:00 INFO  [lsp] starting language server process. binary path: "/usr/bin/node", working directory: "/home/arch-home/dthkash/extrnl.files/dotfiles", args: ["/home/arch-home/dthkash/.local/share/zed/languages/tailwindcss-language-server/node_modules/.bin/tailwindcss-language-server", "--stdio"]
+2025-12-23T15:17:01+03:00 INFO  [lsp] Language server with id 10 sent unhandled notification @/tailwindCSS/projectInitialized:
+[
+  null
+]
+2025-12-23T15:17:13+03:00 INFO  [lsp] starting language server process. binary path: "/usr/bin/node", working directory: "/home/arch-home/dthkash/extrnl.files/dotfiles", args: ["/home/arch-home/dthkash/.local/share/zed/languages/json-language-server/node_modules/vscode-langservers-extracted/bin/vscode-json-language-server", "--stdio"]
+2025-12-23T15:17:13+03:00 INFO  [lsp] starting language server process. binary path: "/home/arch-home/dthkash/.local/share/zed/languages/package-version-server/package-version-server-v0.0.10", working directory: "/home/arch-home/dthkash/extrnl.files/dotfiles", args: []
+2025-12-23T15:20:28+03:00 ERROR [crates/client/src/telemetry.rs:577] error sending request for url (https://api.zed.dev/telemetry/events?)
+
+Caused by:
+    0: client error (Connect)
+    1: operation timed out
+2025-12-23T16:49:25+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: PreMultiplied }
+2025-12-23T16:49:25+03:00 INFO  [zed::zed] Using GPU: GpuSpecs { is_software_emulated: false, device_name: "AMD Radeon Graphics (RADV RENOIR)", driver_name: "radv", driver_info: "Mesa 25.3.2-arch1.1" }
+2025-12-23T16:49:25+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: Ignored }
+2025-12-23T16:49:25+03:00 ERROR [agent] Failed to authenticate provider: Amazon Bedrock: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2025-12-23T17:04:53+03:00 INFO  [lsp] starting language server process. binary path: "/usr/bin/node", working directory: "/home/arch-home/dthkash/.config", args: ["/home/arch-home/dthkash/.local/share/zed/languages/json-language-server/node_modules/vscode-langservers-extracted/bin/vscode-json-language-server", "--stdio"]
+2025-12-23T17:06:27+03:00 INFO  [lsp] starting language server process. binary path: "/usr/bin/node", working directory: "/home/arch-home/dthkash/.config", args: ["/home/arch-home/dthkash/.local/share/zed/languages/vscode-css-language-server/node_modules/vscode-langservers-extracted/bin/vscode-css-language-server", "--stdio"]
+2025-12-23T17:06:27+03:00 INFO  [lsp] starting language server process. binary path: "/usr/bin/node", working directory: "/home/arch-home/dthkash/.config", args: ["/home/arch-home/dthkash/.local/share/zed/languages/tailwindcss-language-server/node_modules/.bin/tailwindcss-language-server", "--stdio"]
+2025-12-23T17:10:06+03:00 INFO  [project::prettier_store] Starting prettier at path "/home/arch-home/dthkash/.local/share/zed/prettier"
+2025-12-23T17:10:06+03:00 INFO  [lsp] starting language server process. binary path: "/usr/bin/node", working directory: "/home/arch-home/dthkash/.local/share/zed/prettier", args: ["/home/arch-home/dthkash/.local/share/zed/prettier/prettier_server.js", "/home/arch-home/dthkash/.local/share/zed/prettier"]
+2025-12-23T17:10:06+03:00 INFO  [project::prettier_store] Started default prettier in "/home/arch-home/dthkash/.local/share/zed/prettier"
+2025-12-25T11:08:05+03:00 ERROR [crates/gpui/src/window.rs:1132] window not found
+2025-12-25T11:08:05+03:00 ERROR [crates/gpui/src/window.rs:1139] window not found
+2025-12-25T11:08:05+03:00 INFO  [lsp] Language server with id 15 sent unhandled notification @/tailwindCSS/projectsDestroyed:
+[
+  null
+]
+2025-12-25T11:08:05+03:00 WARN  [lsp::input_handler] failed to deserialize LSP message:
+{"jsonrpc":"2.0","result":{}}
+2025-12-25T11:08:05+03:00 ERROR [lsp] Shutdown request failure, server prettier (id 16): Error: Unknown method: shutdown
+While handling prettier request: {"jsonrpc":"2.0","id":7,"method":"shutdown","params":null}
+2025-12-25T11:08:18+03:00 ERROR [lsp] Shutdown request failure, server package-version-server (id 12): Unexpected params: null
+2025-12-25T12:22:53+03:00 INFO  [zed] ========== starting zed version 0.217.3+stable, sha unknown ==========
+2025-12-25T12:22:53+03:00 INFO  [crashes] spawning crash handler process
+2025-12-25T12:22:53+03:00 WARN  [zed::reliability] Minidump endpoint not set
+2025-12-25T12:22:53+03:00 INFO  [extension_host] extensions updated. loading 4, reloading 0, unloading 0
+2025-12-25T12:22:53+03:00 INFO  [util] set environment variables from shell:/bin/zsh, path:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+2025-12-25T12:22:53+03:00 INFO  [gpui::platform::linux::platform] activate is not implemented on Linux, ignoring the call
+2025-12-25T12:22:53+03:00 INFO  [crashes] connected to crash handler process after 100ms
+2025-12-25T12:22:53+03:00 INFO  [crashes] crash handler registered
+2025-12-25T12:22:53+03:00 ERROR [crates/client/src/client.rs:359] DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2025-12-25T12:22:54+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: PreMultiplied }
+2025-12-25T12:22:54+03:00 INFO  [workspace] Rendered first frame
+2025-12-25T12:22:54+03:00 INFO  [zed::zed] Using GPU: GpuSpecs { is_software_emulated: false, device_name: "AMD Radeon Graphics (RADV RENOIR)", driver_name: "radv", driver_info: "Mesa 25.3.2-arch1.1" }
+2025-12-25T12:22:54+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: Ignored }
+2025-12-25T12:22:54+03:00 ERROR [agent] Failed to authenticate provider: Amazon Bedrock: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2025-12-25T12:23:04+03:00 INFO  [node_runtime] using Node.js found on PATH: SystemNodeRuntime { node: "/usr/bin/node", npm: "/usr/bin/npm", global_node_modules: "/usr/lib/node_modules\n", scratch_dir: "/home/arch-home/dthkash/.local/share/zed/node" }
+2025-12-25T12:23:06+03:00 INFO  [lsp] starting language server process. binary path: "/usr/bin/node", working directory: "/home/arch-home/dthkash/myProjects/dotfiles", args: ["/home/arch-home/dthkash/.local/share/zed/languages/json-language-server/node_modules/vscode-langservers-extracted/bin/vscode-json-language-server", "--stdio"]
+2025-12-25T12:24:01+03:00 INFO  [project::prettier_store] Starting prettier at path "/home/arch-home/dthkash/.local/share/zed/prettier"
+2025-12-25T12:24:01+03:00 INFO  [lsp] starting language server process. binary path: "/usr/bin/node", working directory: "/home/arch-home/dthkash/.local/share/zed/prettier", args: ["/home/arch-home/dthkash/.local/share/zed/prettier/prettier_server.js", "/home/arch-home/dthkash/.local/share/zed/prettier"]
+2025-12-25T12:24:01+03:00 INFO  [project::prettier_store] Started default prettier in "/home/arch-home/dthkash/.local/share/zed/prettier"
+2025-12-25T12:24:41+03:00 ERROR [crates/gpui/src/platform/linux/platform.rs:473] invoking xdg-open
+
+Caused by:
+    No such file or directory (os error 2)
+2025-12-25T12:36:23+03:00 INFO  [project::lsp_store] stopping language server json-language-server
+2025-12-25T12:36:24+03:00 INFO  [lsp] starting language server process. binary path: "/usr/bin/node", working directory: "/home/arch-home/dthkash/myProjects/dotfiles", args: ["/home/arch-home/dthkash/.local/share/zed/languages/vscode-css-language-server/node_modules/vscode-langservers-extracted/bin/vscode-css-language-server", "--stdio"]
+2025-12-25T12:36:24+03:00 INFO  [lsp] starting language server process. binary path: "/usr/bin/node", working directory: "/home/arch-home/dthkash/myProjects/dotfiles", args: ["/home/arch-home/dthkash/.local/share/zed/languages/tailwindcss-language-server/node_modules/.bin/tailwindcss-language-server", "--stdio"]
+2025-12-25T12:36:42+03:00 WARN  [simplecss] The @media rule is not supported. Skipped.
+2025-12-25T13:55:11+03:00 WARN  [simplecss] The @media rule is not supported. Skipped.
+2025-12-25T13:56:12+03:00 INFO  [lsp] starting language server process. binary path: "/usr/bin/node", working directory: "/home/arch-home/dthkash/myProjects/dotfiles", args: ["/home/arch-home/dthkash/.local/share/zed/languages/json-language-server/node_modules/vscode-langservers-extracted/bin/vscode-json-language-server", "--stdio"]
+2025-12-25T14:00:05+03:00 WARN  [lsp::input_handler] failed to deserialize LSP message:
+{"jsonrpc":"2.0","result":{}}
+2025-12-25T14:00:05+03:00 ERROR [lsp] Shutdown request failure, server prettier (id 2): Error: Unknown method: shutdown
+While handling prettier request: {"jsonrpc":"2.0","id":11,"method":"shutdown","params":null}
+2025-12-26T13:47:56+03:00 INFO  [zed] ========== starting zed version 0.217.3+stable, sha unknown ==========
+2025-12-26T13:47:56+03:00 INFO  [crashes] spawning crash handler process
+2025-12-26T13:47:56+03:00 INFO  [util] set environment variables from shell:/bin/zsh, path:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+2025-12-26T13:47:56+03:00 INFO  [crashes] connected to crash handler process after 100ms
+2025-12-26T13:47:56+03:00 INFO  [crashes] crash handler registered
+2025-12-26T13:47:56+03:00 WARN  [zed::reliability] Minidump endpoint not set
+2025-12-26T13:47:56+03:00 INFO  [extension_host] extensions updated. loading 4, reloading 0, unloading 0
+2025-12-26T13:47:56+03:00 INFO  [gpui::platform::linux::platform] activate is not implemented on Linux, ignoring the call
+2025-12-26T13:47:56+03:00 ERROR [crates/client/src/client.rs:359] DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2025-12-26T13:47:56+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: PreMultiplied }
+2025-12-26T13:47:56+03:00 INFO  [workspace] Rendered first frame
+2025-12-26T13:47:56+03:00 INFO  [zed::zed] Using GPU: GpuSpecs { is_software_emulated: false, device_name: "AMD Radeon Graphics (RADV RENOIR)", driver_name: "radv", driver_info: "Mesa 25.3.2-arch1.1" }
+2025-12-26T13:47:56+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: Ignored }
+2025-12-26T13:47:57+03:00 ERROR [agent] Failed to authenticate provider: Amazon Bedrock: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2025-12-26T13:47:57+03:00 INFO  [node_runtime] using Node.js found on PATH: SystemNodeRuntime { node: "/usr/bin/node", npm: "/usr/bin/npm", global_node_modules: "/usr/lib/node_modules\n", scratch_dir: "/home/arch-home/dthkash/.local/share/zed/node" }
+2025-12-26T13:47:58+03:00 INFO  [lsp] starting language server process. binary path: "/usr/bin/node", working directory: "/home/arch-home/dthkash/.config", args: ["/home/arch-home/dthkash/.local/share/zed/languages/json-language-server/node_modules/vscode-langservers-extracted/bin/vscode-json-language-server", "--stdio"]
+2025-12-28T14:12:55+03:00 INFO  [zed] ========== starting zed version 0.217.3+stable, sha unknown ==========
+2025-12-28T14:12:55+03:00 INFO  [crashes] spawning crash handler process
+2025-12-28T14:12:55+03:00 INFO  [util] set environment variables from shell:/bin/zsh, path:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+2025-12-28T14:12:55+03:00 INFO  [crashes] connected to crash handler process after 100ms
+2025-12-28T14:12:55+03:00 INFO  [crashes] crash handler registered
+2025-12-28T14:12:55+03:00 WARN  [zed::reliability] Minidump endpoint not set
+2025-12-28T14:12:55+03:00 INFO  [extension_host] extensions updated. loading 4, reloading 0, unloading 0
+2025-12-28T14:12:55+03:00 INFO  [gpui::platform::linux::platform] activate is not implemented on Linux, ignoring the call
+2025-12-28T14:12:55+03:00 ERROR [crates/client/src/client.rs:359] DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2025-12-28T14:12:55+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: PreMultiplied }
+2025-12-28T14:12:55+03:00 INFO  [workspace] Rendered first frame
+2025-12-28T14:12:56+03:00 INFO  [zed::zed] Using GPU: GpuSpecs { is_software_emulated: false, device_name: "AMD Radeon Graphics (RADV RENOIR)", driver_name: "radv", driver_info: "Mesa 25.3.2-arch1.1" }
+2025-12-28T14:12:56+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: Ignored }
+2025-12-28T14:12:56+03:00 ERROR [agent] Failed to authenticate provider: Amazon Bedrock: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2025-12-28T14:13:40+03:00 ERROR [language] missing required capture(s) in TOML indents TreeSitter query: indent
+2025-12-28T14:13:40+03:00 WARN  [language] unrecognized capture name 'comment' in TOML textobjects TreeSitter query
+2025-12-28T14:15:50+03:00 INFO  [zed] ========== starting zed version 0.217.3+stable, sha unknown ==========
+2025-12-28T14:15:50+03:00 INFO  [crashes] spawning crash handler process
+2025-12-28T14:15:50+03:00 WARN  [zed::reliability] Minidump endpoint not set
+2025-12-28T14:15:50+03:00 INFO  [extension_host] extensions updated. loading 4, reloading 0, unloading 0
+2025-12-28T14:15:50+03:00 INFO  [gpui::platform::linux::platform] activate is not implemented on Linux, ignoring the call
+2025-12-28T14:15:51+03:00 ERROR [crates/client/src/client.rs:359] DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2025-12-28T14:15:51+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: PreMultiplied }
+2025-12-28T14:15:51+03:00 INFO  [util] set environment variables from shell:/bin/zsh, path:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+2025-12-28T14:15:51+03:00 INFO  [workspace] Rendered first frame
+2025-12-28T14:15:51+03:00 INFO  [zed::zed] Using GPU: GpuSpecs { is_software_emulated: false, device_name: "AMD Radeon Graphics (RADV RENOIR)", driver_name: "radv", driver_info: "Mesa 25.3.2-arch1.1" }
+2025-12-28T14:15:51+03:00 INFO  [crashes] connected to crash handler process after 100ms
+2025-12-28T14:15:51+03:00 INFO  [crashes] crash handler registered
+2025-12-28T14:15:51+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: Ignored }
+2025-12-28T14:15:51+03:00 ERROR [agent] Failed to authenticate provider: Amazon Bedrock: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2025-12-28T14:16:04+03:00 INFO  [zed] ========== starting zed version 0.217.3+stable, sha unknown ==========
+2025-12-28T14:16:04+03:00 INFO  [crashes] spawning crash handler process
+2025-12-28T14:16:04+03:00 WARN  [zed::reliability] Minidump endpoint not set
+2025-12-28T14:16:04+03:00 INFO  [extension_host] extensions updated. loading 4, reloading 0, unloading 0
+2025-12-28T14:16:04+03:00 INFO  [gpui::platform::linux::platform] activate is not implemented on Linux, ignoring the call
+2025-12-28T14:16:04+03:00 ERROR [crates/client/src/client.rs:359] DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2025-12-28T14:16:04+03:00 INFO  [worktree] inserting parent git repo for this worktree: "dotfiles"
+2025-12-28T14:16:04+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: PreMultiplied }
+2025-12-28T14:16:04+03:00 INFO  [util] set environment variables from shell:/bin/zsh, path:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+2025-12-28T14:16:04+03:00 INFO  [workspace] Rendered first frame
+2025-12-28T14:16:04+03:00 INFO  [zed::zed] Using GPU: GpuSpecs { is_software_emulated: false, device_name: "AMD Radeon Graphics (RADV RENOIR)", driver_name: "radv", driver_info: "Mesa 25.3.2-arch1.1" }
+2025-12-28T14:16:04+03:00 INFO  [crashes] connected to crash handler process after 100ms
+2025-12-28T14:16:04+03:00 INFO  [crashes] crash handler registered
+2025-12-28T14:16:04+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: Ignored }
+2025-12-28T14:16:04+03:00 ERROR [agent] Failed to authenticate provider: Amazon Bedrock: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2025-12-28T14:16:16+03:00 INFO  [worktree] inserting parent git repo for this worktree: "dotfiles"
+2025-12-28T14:16:17+03:00 INFO  [worktree] inserting parent git repo for this worktree: "dotfiles"
+2025-12-28T14:21:09+03:00 INFO  [node_runtime] using Node.js found on PATH: SystemNodeRuntime { node: "/usr/bin/node", npm: "/usr/bin/npm", global_node_modules: "/usr/lib/node_modules\n", scratch_dir: "/home/arch-home/dthkash/.local/share/zed/node" }
+2025-12-28T14:21:11+03:00 INFO  [lsp] starting language server process. binary path: "/usr/bin/node", working directory: "/home/arch-home/dthkash/extrnl.files/dotfiles/dotfiles", args: ["/home/arch-home/dthkash/.local/share/zed/languages/vscode-css-language-server/node_modules/vscode-langservers-extracted/bin/vscode-css-language-server", "--stdio"]
+2025-12-28T14:21:11+03:00 INFO  [lsp] starting language server process. binary path: "/usr/bin/node", working directory: "/home/arch-home/dthkash/extrnl.files/dotfiles/dotfiles", args: ["/home/arch-home/dthkash/.local/share/zed/languages/tailwindcss-language-server/node_modules/.bin/tailwindcss-language-server", "--stdio"]
+2025-12-28T14:21:11+03:00 INFO  [lsp] Language server with id 2 sent unhandled notification @/tailwindCSS/projectInitialized:
+[
+  null
+]
+2025-12-28T14:22:18+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: PreMultiplied }
+2025-12-28T14:22:18+03:00 INFO  [zed::zed] Using GPU: GpuSpecs { is_software_emulated: false, device_name: "AMD Radeon Graphics (RADV RENOIR)", driver_name: "radv", driver_info: "Mesa 25.3.2-arch1.1" }
+2025-12-28T14:22:18+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: Ignored }
+2025-12-28T14:22:19+03:00 ERROR [agent] Failed to authenticate provider: Amazon Bedrock: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2025-12-28T14:23:28+03:00 INFO  [zed::zed] Using GPU: GpuSpecs { is_software_emulated: false, device_name: "AMD Radeon Graphics (RADV RENOIR)", driver_name: "radv", driver_info: "Mesa 25.3.2-arch1.1" }
+2025-12-28T14:23:28+03:00 ERROR [agent] Failed to authenticate provider: Amazon Bedrock: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2025-12-28T14:23:28+03:00 INFO  [lsp] starting language server process. binary path: "/usr/bin/node", working directory: "/home/arch-home/dthkash/myProjects/dotfiles", args: ["/home/arch-home/dthkash/.local/share/zed/languages/vscode-css-language-server/node_modules/vscode-langservers-extracted/bin/vscode-css-language-server", "--stdio"]
+2025-12-28T14:23:28+03:00 INFO  [lsp] starting language server process. binary path: "/usr/bin/node", working directory: "/home/arch-home/dthkash/myProjects/dotfiles", args: ["/home/arch-home/dthkash/.local/share/zed/languages/tailwindcss-language-server/node_modules/.bin/tailwindcss-language-server", "--stdio"]
+2025-12-28T14:23:37+03:00 WARN  [simplecss] The @media rule is not supported. Skipped.
+2025-12-28T14:25:25+03:00 INFO  [project::prettier_store] Starting prettier at path "/home/arch-home/dthkash/.local/share/zed/prettier"
+2025-12-28T14:25:25+03:00 INFO  [lsp] starting language server process. binary path: "/usr/bin/node", working directory: "/home/arch-home/dthkash/.local/share/zed/prettier", args: ["/home/arch-home/dthkash/.local/share/zed/prettier/prettier_server.js", "/home/arch-home/dthkash/.local/share/zed/prettier"]
+2025-12-28T14:25:25+03:00 INFO  [project::prettier_store] Started default prettier in "/home/arch-home/dthkash/.local/share/zed/prettier"
+2025-12-28T14:25:36+03:00 INFO  [project::lsp_store] stopping language server vscode-css-language-server
+2025-12-28T14:25:36+03:00 INFO  [project::lsp_store] stopping language server tailwindcss-language-server
+2025-12-28T14:25:36+03:00 INFO  [lsp] Language server with id 2 sent unhandled notification @/tailwindCSS/projectsDestroyed:
+[
+  null
+]
+2025-12-28T14:25:36+03:00 ERROR [project::lsp_store] Failed to unregister server capabilities: no server 2 found
+2025-12-28T14:25:36+03:00 ERROR [project::lsp_store] Failed to unregister server capabilities: no server 2 found
+2025-12-28T14:25:36+03:00 ERROR [project::lsp_store] Failed to unregister server capabilities: no server 2 found
+2025-12-28T14:25:59+03:00 ERROR [crates/gpui/src/window.rs:1127] window not found
+2025-12-28T14:25:59+03:00 ERROR [crates/gpui/src/window.rs:1139] window not found
+2025-12-28T14:25:59+03:00 WARN  [lsp::input_handler] failed to deserialize LSP message:
+{"jsonrpc":"2.0","result":{}}
+2025-12-28T14:25:59+03:00 ERROR [lsp] Shutdown request failure, server prettier (id 5): Error: Unknown method: shutdown
+While handling prettier request: {"jsonrpc":"2.0","id":3,"method":"shutdown","params":null}
+2026-01-07T21:59:15+03:00 INFO  [zed] ========== starting zed version 0.217.3+stable, sha unknown ==========
+2026-01-07T21:59:15+03:00 INFO  [crashes] spawning crash handler process
+2026-01-07T21:59:15+03:00 INFO  [util] set environment variables from shell:/bin/zsh, path:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+2026-01-07T21:59:15+03:00 WARN  [zed::reliability] Minidump endpoint not set
+2026-01-07T21:59:15+03:00 INFO  [extension_host] extensions updated. loading 4, reloading 0, unloading 0
+2026-01-07T21:59:15+03:00 INFO  [crashes] connected to crash handler process after 100ms
+2026-01-07T21:59:15+03:00 INFO  [crashes] crash handler registered
+2026-01-07T21:59:15+03:00 INFO  [gpui::platform::linux::platform] activate is not implemented on Linux, ignoring the call
+2026-01-07T21:59:15+03:00 ERROR [crates/client/src/client.rs:359] DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2026-01-07T21:59:15+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: PreMultiplied }
+2026-01-07T21:59:15+03:00 INFO  [workspace] Rendered first frame
+2026-01-07T21:59:15+03:00 INFO  [zed::zed] Using GPU: GpuSpecs { is_software_emulated: false, device_name: "AMD Radeon Graphics (RADV RENOIR)", driver_name: "radv", driver_info: "Mesa 25.3.2-arch1.1" }
+2026-01-07T21:59:15+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: Ignored }
+2026-01-07T21:59:16+03:00 ERROR [agent] Failed to authenticate provider: Amazon Bedrock: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2026-01-07T21:59:24+03:00 ERROR [language] missing required capture(s) in TOML indents TreeSitter query: indent
+2026-01-07T21:59:24+03:00 WARN  [language] unrecognized capture name 'comment' in TOML textobjects TreeSitter query
+2026-01-07T22:02:13+03:00 WARN  [workspace] Failed to open a project item: opening project path "/home/arch-home/dthkash/.config/dconf/user": Opening path "dconf/user"
+2026-01-07T22:02:18+03:00 ERROR [crates/gpui/src/platform/linux/platform.rs:473] invoking xdg-open
+
+Caused by:
+    No such file or directory (os error 2)
+2026-01-07T22:02:19+03:00 ERROR [crates/gpui/src/platform/linux/platform.rs:473] invoking xdg-open
+
+Caused by:
+    No such file or directory (os error 2)
+2026-01-07T22:02:20+03:00 ERROR [crates/gpui/src/platform/linux/platform.rs:473] invoking xdg-open
+
+Caused by:
+    No such file or directory (os error 2)
+2026-01-07T22:02:22+03:00 ERROR [crates/gpui/src/platform/linux/platform.rs:473] invoking xdg-open
+
+Caused by:
+    No such file or directory (os error 2)
+2026-01-07T22:03:08+03:00 INFO  [client] set status on client 0: Authenticating
+2026-01-07T22:03:08+03:00 ERROR [crates/client/src/client.rs:359] DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2026-01-07T22:03:09+03:00 ERROR [gpui::platform::linux::platform] Failed to open with dbus: Portal request failed: org.freedesktop.zbus.Error: The name is not activatable
+2026-01-07T22:03:09+03:00 ERROR [gpui::platform::linux::platform] Failed to open with "xdg-open": No such file or directory (os error 2)
+2026-01-07T22:03:31+03:00 INFO  [gpui::platform::linux::platform] activate is not implemented on Linux, ignoring the call
+2026-01-07T22:03:31+03:00 ERROR [crates/client/src/client.rs:875] DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2026-01-07T22:03:31+03:00 INFO  [client] set status on client 584576: Authenticated
+2026-01-07T22:03:31+03:00 INFO  [client] set status on client 584576: Connecting
+2026-01-07T22:03:32+03:00 INFO  [client] connected to rpc endpoint https://collab.zed.dev/rpc
+2026-01-07T22:03:33+03:00 INFO  [client] set status on client 584576: Connected { peer_id: PeerId { owner_id: 916, id: 9902 }, connection_id: ConnectionId { owner_id: 0, id: 0 } }
+2026-01-07T22:03:47+03:00 INFO  [audio] Output stream: OutputStream { config: OutputStreamConfig { channel_count: 2, sample_rate: 44100, buffer_size: Default, sample_format: F32 }, .. }
+2026-01-07T22:03:47+03:00 INFO  [livekit_api::signal_client::signal_stream] connecting to wss://zed.livekit.cloud/rtc?sdk=rust&protocol=15&auto_subscribe=1&adaptive_stream=0&version=0.7.8&access_token=...
+2026-01-07T22:03:50+03:00 INFO  [livekit_api::signal_client::signal_stream] connecting to wss://zed.livekit.cloud/rtc?sdk=rust&protocol=15&auto_subscribe=1&adaptive_stream=0&version=0.7.8&access_token=...
+2026-01-07T22:04:01+03:00 INFO  [call::call_impl::room] leaving room
+2026-01-07T22:04:01+03:00 INFO  [audio] Output stream: OutputStream { config: OutputStreamConfig { channel_count: 2, sample_rate: 44100, buffer_size: Default, sample_format: F32 }, .. }
+2026-01-07T22:04:01+03:00 WARN  [livekit::rtc_engine] received session close: "signal client closed: \"stream closed\"" UnknownReason Resume
+2026-01-07T22:04:01+03:00 INFO  [livekit::room] disconnected from room with reason: ParticipantRemoved
+2026-01-07T22:04:03+03:00 WARN  [livekit::rtc_engine] failed to connect: Connection("wait_pc_connection timed out"), retrying... (1/3)
+2026-01-07T22:04:03+03:00 INFO  [livekit_api::signal_client::signal_stream] connecting to wss://zed.livekit.cloud/rtc?sdk=rust&protocol=15&auto_subscribe=1&adaptive_stream=0&version=0.7.8&access_token=...
+2026-01-07T22:04:07+03:00 ERROR [crates/call/src/call_impl/room.rs:1651] entity released
+2026-01-07T22:04:07+03:00 INFO  [livekit_api::signal_client::signal_stream] connecting to wss://zed.livekit.cloud/rtc?sdk=rust&protocol=15&auto_subscribe=1&adaptive_stream=0&version=0.7.8&access_token=...
+2026-01-07T22:04:12+03:00 INFO  [call::call_impl::room] leaving room
+2026-01-07T22:04:12+03:00 INFO  [audio] Output stream: OutputStream { config: OutputStreamConfig { channel_count: 2, sample_rate: 44100, buffer_size: Default, sample_format: F32 }, .. }
+2026-01-07T22:04:25+03:00 WARN  [livekit::rtc_engine] failed to connect: Connection("wait_pc_connection timed out"), retrying... (1/3)
+2026-01-07T22:04:25+03:00 INFO  [livekit_api::signal_client::signal_stream] connecting to wss://zed.livekit.cloud/rtc?sdk=rust&protocol=15&auto_subscribe=1&adaptive_stream=0&version=0.7.8&access_token=...
+2026-01-07T22:04:30+03:00 ERROR [crates/call/src/call_impl/room.rs:1651] entity released
+2026-01-07T22:05:34+03:00 ERROR [crates/edit_prediction/src/edit_prediction.rs:995] task 253 was cancelled
+2026-01-07T22:05:51+03:00 INFO  [zed] ========== starting zed version 0.217.3+stable, sha unknown ==========
+2026-01-07T22:05:51+03:00 INFO  [crashes] spawning crash handler process
+2026-01-07T22:05:51+03:00 WARN  [zed::reliability] Minidump endpoint not set
+2026-01-07T22:05:51+03:00 INFO  [extension_host] extensions updated. loading 4, reloading 0, unloading 0
+2026-01-07T22:05:51+03:00 INFO  [gpui::platform::linux::platform] activate is not implemented on Linux, ignoring the call
+2026-01-07T22:05:51+03:00 INFO  [util] set environment variables from shell:/bin/zsh, path:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+2026-01-07T22:05:51+03:00 ERROR [crates/client/src/client.rs:359] DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2026-01-07T22:05:51+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: PreMultiplied }
+2026-01-07T22:05:51+03:00 INFO  [workspace] Rendered first frame
+2026-01-07T22:05:51+03:00 INFO  [zed::zed] Using GPU: GpuSpecs { is_software_emulated: false, device_name: "AMD Radeon Graphics (RADV RENOIR)", driver_name: "radv", driver_info: "Mesa 25.3.2-arch1.1" }
+2026-01-07T22:05:51+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: Ignored }
+2026-01-07T22:05:51+03:00 INFO  [crashes] connected to crash handler process after 100ms
+2026-01-07T22:05:51+03:00 INFO  [crashes] crash handler registered
+2026-01-07T22:05:51+03:00 ERROR [agent] Failed to authenticate provider: Amazon Bedrock: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2026-01-07T22:07:15+03:00 ERROR [language] missing required capture(s) in TOML indents TreeSitter query: indent
+2026-01-07T22:07:15+03:00 WARN  [language] unrecognized capture name 'comment' in TOML textobjects TreeSitter query
+2026-01-07T22:07:46+03:00 INFO  [node_runtime] using Node.js found on PATH: SystemNodeRuntime { node: "/usr/bin/node", npm: "/usr/bin/npm", global_node_modules: "/usr/lib/node_modules\n", scratch_dir: "/home/arch-home/dthkash/.local/share/zed/node" }
+2026-01-07T22:07:47+03:00 INFO  [lsp] starting language server process. binary path: "/usr/bin/node", working directory: "/home/arch-home/dthkash/.config", args: ["/home/arch-home/dthkash/.local/share/zed/languages/json-language-server/node_modules/vscode-langservers-extracted/bin/vscode-json-language-server", "--stdio"]
+2026-01-07T22:07:47+03:00 INFO  [lsp] starting language server process. binary path: "/usr/bin/node", working directory: "/home/arch-home/dthkash/.config", args: ["/home/arch-home/dthkash/.local/share/zed/languages/vscode-css-language-server/node_modules/vscode-langservers-extracted/bin/vscode-css-language-server", "--stdio"]
+2026-01-07T22:07:50+03:00 INFO  [lsp] starting language server process. binary path: "/usr/bin/node", working directory: "/home/arch-home/dthkash/.config", args: ["/home/arch-home/dthkash/.local/share/zed/languages/tailwindcss-language-server/node_modules/.bin/tailwindcss-language-server", "--stdio"]
+2026-01-07T22:08:27+03:00 ERROR [crates/git_ui/src/project_diff.rs:616] Opening path "alacritty"
+2026-01-07T22:08:27+03:00 ERROR [crates/git_ui/src/project_diff.rs:616] Opening path "dconf/user"
+2026-01-07T22:08:27+03:00 ERROR [crates/git_ui/src/project_diff.rs:616] Opening path "hypr"
+2026-01-07T22:08:27+03:00 ERROR [crates/git_ui/src/project_diff.rs:616] Opening path "pulse/cookie"
+2026-01-07T22:08:27+03:00 ERROR [crates/git_ui/src/project_diff.rs:616] Opening path "waybar"
+2026-01-07T22:08:27+03:00 ERROR [crates/git_ui/src/project_diff.rs:616] Opening path "zed"
+2026-01-07T22:08:27+03:00 INFO  [project::lsp_store] stopping language server json-language-server
+2026-01-07T22:08:27+03:00 INFO  [project::lsp_store] stopping language server vscode-css-language-server
+2026-01-07T22:08:27+03:00 INFO  [project::lsp_store] stopping language server tailwindcss-language-server
+2026-01-07T22:08:27+03:00 INFO  [lsp] Language server with id 3 sent unhandled notification @/tailwindCSS/projectsDestroyed:
+[
+  null
+]
+2026-01-07T22:08:27+03:00 ERROR [project::lsp_store] Failed to unregister server capabilities: no server 3 found
+2026-01-07T22:08:27+03:00 ERROR [crates/git_ui/src/project_diff.rs:616] Opening path "alacritty"
+2026-01-07T22:08:27+03:00 ERROR [crates/git_ui/src/project_diff.rs:616] Opening path "dconf/user"
+2026-01-07T22:08:27+03:00 ERROR [crates/git_ui/src/project_diff.rs:616] Opening path "hypr"
+2026-01-07T22:08:27+03:00 ERROR [crates/git_ui/src/project_diff.rs:616] Opening path "pulse/cookie"
+2026-01-07T22:08:27+03:00 ERROR [crates/git_ui/src/project_diff.rs:616] Opening path "waybar"
+2026-01-07T22:08:27+03:00 ERROR [crates/git_ui/src/project_diff.rs:616] Opening path "zed"
+2026-01-07T22:09:14+03:00 ERROR [crates/git_ui/src/project_diff.rs:616] Opening path "alacritty"
+2026-01-07T22:09:14+03:00 ERROR [crates/git_ui/src/project_diff.rs:616] Opening path "dconf/user"
+2026-01-07T22:09:14+03:00 ERROR [crates/git_ui/src/project_diff.rs:616] Opening path "hypr"
+2026-01-07T22:09:14+03:00 ERROR [crates/git_ui/src/project_diff.rs:616] Opening path "pulse/cookie"
+2026-01-07T22:09:14+03:00 ERROR [crates/git_ui/src/project_diff.rs:616] Opening path "waybar"
+2026-01-07T22:09:14+03:00 ERROR [crates/git_ui/src/project_diff.rs:616] Opening path "zed"
+2026-01-07T22:12:22+03:00 INFO  [zed] ========== starting zed version 0.217.3+stable, sha unknown ==========
+2026-01-07T22:12:22+03:00 INFO  [crashes] spawning crash handler process
+2026-01-07T22:12:22+03:00 WARN  [zed::reliability] Minidump endpoint not set
+2026-01-07T22:12:22+03:00 INFO  [extension_host] extensions updated. loading 4, reloading 0, unloading 0
+2026-01-07T22:12:22+03:00 INFO  [gpui::platform::linux::platform] activate is not implemented on Linux, ignoring the call
+2026-01-07T22:12:22+03:00 ERROR [crates/client/src/client.rs:359] DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2026-01-07T22:12:22+03:00 INFO  [util] set environment variables from shell:/bin/zsh, path:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+2026-01-07T22:12:22+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: PreMultiplied }
+2026-01-07T22:12:22+03:00 INFO  [workspace] Rendered first frame
+2026-01-07T22:12:22+03:00 INFO  [zed::zed] Using GPU: GpuSpecs { is_software_emulated: false, device_name: "AMD Radeon Graphics (RADV RENOIR)", driver_name: "radv", driver_info: "Mesa 25.3.2-arch1.1" }
+2026-01-07T22:12:22+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: Ignored }
+2026-01-07T22:12:22+03:00 INFO  [crashes] connected to crash handler process after 100ms
+2026-01-07T22:12:22+03:00 INFO  [crashes] crash handler registered
+2026-01-07T22:12:22+03:00 ERROR [agent] Failed to authenticate provider: Amazon Bedrock: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2026-01-07T22:12:22+03:00 INFO  [node_runtime] using Node.js found on PATH: SystemNodeRuntime { node: "/usr/bin/node", npm: "/usr/bin/npm", global_node_modules: "/usr/lib/node_modules\n", scratch_dir: "/home/arch-home/dthkash/.local/share/zed/node" }
+2026-01-07T22:12:23+03:00 INFO  [lsp] starting language server process. binary path: "/usr/bin/node", working directory: "/home/arch-home/dthkash/myProjects/dotfiles", args: ["/home/arch-home/dthkash/.local/share/zed/languages/vscode-css-language-server/node_modules/vscode-langservers-extracted/bin/vscode-css-language-server", "--stdio"]
+2026-01-07T22:12:23+03:00 INFO  [lsp] starting language server process. binary path: "/usr/bin/node", working directory: "/home/arch-home/dthkash/myProjects/dotfiles", args: ["/home/arch-home/dthkash/.local/share/zed/languages/tailwindcss-language-server/node_modules/.bin/tailwindcss-language-server", "--stdio"]
+2026-01-07T22:12:43+03:00 ERROR [language] missing required capture(s) in TOML indents TreeSitter query: indent
+2026-01-07T22:12:43+03:00 WARN  [language] unrecognized capture name 'comment' in TOML textobjects TreeSitter query
+2026-01-07T22:16:24+03:00 INFO  [lsp] starting language server process. binary path: "/usr/bin/node", working directory: "/home/arch-home/dthkash/myProjects/dotfiles", args: ["/home/arch-home/dthkash/.local/share/zed/languages/json-language-server/node_modules/vscode-langservers-extracted/bin/vscode-json-language-server", "--stdio"]
+2026-01-07T22:16:53+03:00 INFO  [project::prettier_store] Starting prettier at path "/home/arch-home/dthkash/.local/share/zed/prettier"
+2026-01-07T22:16:53+03:00 INFO  [lsp] starting language server process. binary path: "/usr/bin/node", working directory: "/home/arch-home/dthkash/.local/share/zed/prettier", args: ["/home/arch-home/dthkash/.local/share/zed/prettier/prettier_server.js", "/home/arch-home/dthkash/.local/share/zed/prettier"]
+2026-01-07T22:16:53+03:00 INFO  [project::prettier_store] Started default prettier in "/home/arch-home/dthkash/.local/share/zed/prettier"
+2026-01-07T22:16:57+03:00 WARN  [simplecss] The @media rule is not supported. Skipped.
+2026-01-07T22:19:32+03:00 WARN  [lsp::input_handler] failed to deserialize LSP message:
+{"jsonrpc":"2.0","result":{}}
+2026-01-07T22:19:32+03:00 ERROR [lsp] Shutdown request failure, server prettier (id 4): Error: Unknown method: shutdown
+While handling prettier request: {"jsonrpc":"2.0","id":5,"method":"shutdown","params":null}
+2026-01-07T22:53:48+03:00 INFO  [zed] ========== starting zed version 0.217.3+stable, sha unknown ==========
+2026-01-07T22:53:48+03:00 INFO  [crashes] spawning crash handler process
+2026-01-07T22:53:48+03:00 WARN  [zed::reliability] Minidump endpoint not set
+2026-01-07T22:53:48+03:00 INFO  [extension_host] extensions updated. loading 4, reloading 0, unloading 0
+2026-01-07T22:53:48+03:00 INFO  [gpui::platform::linux::platform] activate is not implemented on Linux, ignoring the call
+2026-01-07T22:53:48+03:00 ERROR [crates/client/src/client.rs:359] DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2026-01-07T22:53:48+03:00 INFO  [util] set environment variables from shell:/bin/zsh, path:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+2026-01-07T22:53:48+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: PreMultiplied }
+2026-01-07T22:53:48+03:00 INFO  [workspace] Rendered first frame
+2026-01-07T22:53:48+03:00 INFO  [zed::zed] Using GPU: GpuSpecs { is_software_emulated: false, device_name: "AMD Radeon Graphics (RADV RENOIR)", driver_name: "radv", driver_info: "Mesa 25.3.2-arch1.1" }
+2026-01-07T22:53:48+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: Ignored }
+2026-01-07T22:53:48+03:00 INFO  [crashes] connected to crash handler process after 100ms
+2026-01-07T22:53:48+03:00 INFO  [crashes] crash handler registered
+2026-01-07T22:53:48+03:00 ERROR [agent] Failed to authenticate provider: Amazon Bedrock: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2026-01-07T22:54:19+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: PreMultiplied }
+2026-01-07T22:54:19+03:00 INFO  [zed::zed] Using GPU: GpuSpecs { is_software_emulated: false, device_name: "AMD Radeon Graphics (RADV RENOIR)", driver_name: "radv", driver_info: "Mesa 25.3.2-arch1.1" }
+2026-01-07T22:54:19+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: Ignored }
+2026-01-07T22:54:19+03:00 ERROR [agent] Failed to authenticate provider: Amazon Bedrock: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2026-01-07T22:54:35+03:00 ERROR [crates/languages/src/rust.rs:1155] no cached binary
+2026-01-07T22:54:36+03:00 INFO  [http_client::github_download] downloading github artifact from https://github.com/rust-lang/rust-analyzer/releases/download/2026-01-05/rust-analyzer-x86_64-unknown-linux-gnu.gz
+2026-01-07T22:54:39+03:00 INFO  [lsp] starting language server process. binary path: "/home/arch-home/dthkash/.local/share/zed/languages/rust-analyzer/rust-analyzer-2026-01-05", working directory: "/home/arch-home/dthkash/restore/rust-proj", args: []
+2026-01-07T22:54:39+03:00 WARN  [project::lsp_store::rust_analyzer_ext] Language server rust-analyzer (id 1) status update: Workspace `/home/arch-home/dthkash/restore/rust-proj/functions/Cargo.toml` has sysroot errors: can't load standard library from sysroot
+/usr
+(discovered via `rustc --print sysroot`)
+try installing `rust-src` the same way you installed `rustc`
+2026-01-07T22:54:39+03:00 WARN  [project::lsp_store::rust_analyzer_ext] Language server rust-analyzer (id 1) status update: Workspace `/home/arch-home/dthkash/restore/rust-proj/functions/Cargo.toml` has sysroot errors: can't load standard library from sysroot
+/usr
+(discovered via `rustc --print sysroot`)
+try installing `rust-src` the same way you installed `rustc`
+2026-01-07T22:54:40+03:00 WARN  [project::lsp_store::rust_analyzer_ext] Language server rust-analyzer (id 1) status update: Workspace `/home/arch-home/dthkash/restore/rust-proj/functions/Cargo.toml` has sysroot errors: can't load standard library from sysroot
+/usr
+(discovered via `rustc --print sysroot`)
+try installing `rust-src` the same way you installed `rustc`
+2026-01-07T22:54:40+03:00 WARN  [project::lsp_store::rust_analyzer_ext] Language server rust-analyzer (id 1) status update: Workspace `/home/arch-home/dthkash/restore/rust-proj/functions/Cargo.toml` has sysroot errors: can't load standard library from sysroot
+/usr
+(discovered via `rustc --print sysroot`)
+try installing `rust-src` the same way you installed `rustc`
+2026-01-08T13:56:34+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: PreMultiplied }
+2026-01-08T13:56:34+03:00 INFO  [zed::zed] Using GPU: GpuSpecs { is_software_emulated: false, device_name: "AMD Radeon Graphics (RADV RENOIR)", driver_name: "radv", driver_info: "Mesa 25.3.2-arch1.1" }
+2026-01-08T13:56:34+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: Ignored }
+2026-01-08T13:56:35+03:00 ERROR [agent] Failed to authenticate provider: Amazon Bedrock: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2026-01-08T14:04:40+03:00 INFO  [client] set status on client 0: Authenticating
+2026-01-08T14:04:40+03:00 ERROR [crates/client/src/client.rs:359] DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2026-01-08T14:04:40+03:00 ERROR [gpui::platform::linux::platform] Failed to open with dbus: Portal request failed: org.freedesktop.zbus.Error: The name is not activatable
+2026-01-08T14:04:40+03:00 ERROR [gpui::platform::linux::platform] Failed to open with "xdg-open": No such file or directory (os error 2)
+2026-01-08T14:04:48+03:00 INFO  [gpui::platform::linux::platform] activate is not implemented on Linux, ignoring the call
+2026-01-08T14:04:48+03:00 ERROR [crates/client/src/client.rs:875] DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2026-01-08T14:04:48+03:00 INFO  [client] set status on client 584576: Authenticated
+2026-01-08T14:04:59+03:00 ERROR [gpui::platform::linux::platform] Failed to open with dbus: Portal request failed: org.freedesktop.zbus.Error: The name is not activatable
+2026-01-08T14:04:59+03:00 ERROR [gpui::platform::linux::platform] Failed to open with "xdg-open": No such file or directory (os error 2)
+2026-01-08T14:06:30+03:00 ERROR [crates/gpui/src/window.rs:1132] window not found
+2026-01-08T14:06:30+03:00 ERROR [crates/gpui/src/window.rs:1139] window not found
+2026-01-09T00:53:05+03:00 INFO  [zed] ========== starting zed version 0.218.6+stable, sha unknown ==========
+2026-01-09T00:53:05+03:00 INFO  [crashes] spawning crash handler process
+2026-01-09T00:53:05+03:00 INFO  [sqlez::migrations] Found 18 foreign key relationships to check
+2026-01-09T00:53:05+03:00 INFO  [util] set environment variables from shell:/bin/zsh, path:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/opt/rocm/bin
+2026-01-09T00:53:05+03:00 WARN  [zed::reliability] Minidump endpoint not set
+2026-01-09T00:53:05+03:00 INFO  [extension_host] extensions updated. loading 4, reloading 0, unloading 0
+2026-01-09T00:53:05+03:00 INFO  [crashes] connected to crash handler process after 100ms
+2026-01-09T00:53:05+03:00 INFO  [crashes] crash handler registered
+2026-01-09T00:53:05+03:00 INFO  [gpui::platform::linux::platform] activate is not implemented on Linux, ignoring the call
+2026-01-09T00:53:05+03:00 ERROR [crates/client/src/client.rs:357] DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2026-01-09T00:53:05+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: PreMultiplied }
+2026-01-09T00:53:05+03:00 INFO  [workspace] Rendered first frame
+2026-01-09T00:53:05+03:00 INFO  [zed::zed] Using GPU: GpuSpecs { is_software_emulated: false, device_name: "AMD Radeon Graphics (RADV RENOIR)", driver_name: "radv", driver_info: "Mesa 25.3.3-arch1.1" }
+2026-01-09T00:53:05+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: Ignored }
+2026-01-09T00:53:05+03:00 ERROR [agent] Failed to authenticate provider: Amazon Bedrock: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2026-01-09T11:39:00+03:00 INFO  [zed] ========== starting zed version 0.218.6+stable, sha unknown ==========
+2026-01-09T11:39:00+03:00 INFO  [crashes] spawning crash handler process
+2026-01-09T11:39:00+03:00 INFO  [util] set environment variables from shell:/bin/zsh, path:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/opt/rocm/bin
+2026-01-09T11:39:00+03:00 WARN  [zed::reliability] Minidump endpoint not set
+2026-01-09T11:39:00+03:00 INFO  [extension_host] extensions updated. loading 4, reloading 0, unloading 0
+2026-01-09T11:39:00+03:00 INFO  [crashes] connected to crash handler process after 100ms
+2026-01-09T11:39:00+03:00 INFO  [crashes] crash handler registered
+2026-01-09T11:39:00+03:00 INFO  [gpui::platform::linux::platform] activate is not implemented on Linux, ignoring the call
+2026-01-09T11:39:00+03:00 ERROR [crates/client/src/client.rs:357] DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2026-01-09T11:39:00+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: PreMultiplied }
+2026-01-09T11:39:00+03:00 INFO  [workspace] Rendered first frame
+2026-01-09T11:39:00+03:00 INFO  [zed::zed] Using GPU: GpuSpecs { is_software_emulated: false, device_name: "AMD Radeon Graphics (RADV RENOIR)", driver_name: "radv", driver_info: "Mesa 25.3.3-arch1.1" }
+2026-01-09T11:39:00+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: Ignored }
+2026-01-09T11:39:01+03:00 ERROR [agent] Failed to authenticate provider: Amazon Bedrock: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2026-01-09T11:41:50+03:00 ERROR [crates/gpui/src/platform/linux/wayland/client.rs:836] OtherError(IoError(Os { code: 32, kind: BrokenPipe, message: "Broken pipe" }))
+2026-01-09T14:49:29+03:00 INFO  [zed] ========== starting zed version 0.218.6+stable, sha unknown ==========
+2026-01-09T14:49:29+03:00 INFO  [crashes] spawning crash handler process
+2026-01-09T14:49:29+03:00 WARN  [zed::reliability] Minidump endpoint not set
+2026-01-09T14:49:29+03:00 INFO  [extension_host] extensions updated. loading 4, reloading 0, unloading 0
+2026-01-09T14:49:29+03:00 INFO  [gpui::platform::linux::platform] activate is not implemented on Linux, ignoring the call
+2026-01-09T14:49:29+03:00 ERROR [crates/client/src/client.rs:357] DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2026-01-09T14:49:29+03:00 INFO  [util] set environment variables from shell:/bin/zsh, path:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/opt/rocm/bin
+2026-01-09T14:49:29+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: PreMultiplied }
+2026-01-09T14:49:29+03:00 INFO  [workspace] Rendered first frame
+2026-01-09T14:49:29+03:00 INFO  [zed::zed] Using GPU: GpuSpecs { is_software_emulated: false, device_name: "AMD Radeon Graphics (RADV RENOIR)", driver_name: "radv", driver_info: "Mesa 25.3.3-arch1.1" }
+2026-01-09T14:49:29+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: Ignored }
+2026-01-09T14:49:29+03:00 INFO  [crashes] connected to crash handler process after 100ms
+2026-01-09T14:49:29+03:00 INFO  [crashes] crash handler registered
+2026-01-09T14:49:30+03:00 ERROR [agent] Failed to authenticate provider: Amazon Bedrock: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2026-01-09T16:17:03+03:00 INFO  [worktree] inserting parent git repo for this worktree: "dotfiles/.config"
+2026-01-09T16:17:03+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: PreMultiplied }
+2026-01-09T16:17:03+03:00 INFO  [zed::zed] Using GPU: GpuSpecs { is_software_emulated: false, device_name: "AMD Radeon Graphics (RADV RENOIR)", driver_name: "radv", driver_info: "Mesa 25.3.3-arch1.1" }
+2026-01-09T16:17:03+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: Ignored }
+2026-01-09T16:17:03+03:00 ERROR [agent] Failed to authenticate provider: Amazon Bedrock: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2026-01-09T16:40:52+03:00 ERROR [worktree] error reading file "/home/arch-home/dthkash/.config/hypr" on event: canonicalizing "/home/arch-home/dthkash/.config/hypr": No such file or directory (os error 2)
+2026-01-09T16:40:52+03:00 ERROR [worktree] error reading file "/home/arch-home/dthkash/.config/zed" on event: canonicalizing "/home/arch-home/dthkash/.config/zed": No such file or directory (os error 2)
+2026-01-09T16:43:54+03:00 ERROR [worktree] error reading file "/home/arch-home/dthkash/.config/hypr" on event: canonicalizing "/home/arch-home/dthkash/.config/hypr": No such file or directory (os error 2)
+2026-01-09T16:43:54+03:00 ERROR [worktree] error reading file "/home/arch-home/dthkash/.config/zed" on event: canonicalizing "/home/arch-home/dthkash/.config/zed": No such file or directory (os error 2)
+2026-01-09T16:58:13+03:00 ERROR [crates/gpui/src/window.rs:1112] window not found
+2026-01-09T16:58:13+03:00 ERROR [crates/gpui/src/window.rs:1119] window not found
+2026-01-09T16:58:13+03:00 ERROR [crates/fs/src/fs_watcher.rs:216] Error { kind: WatchNotFound, paths: ["/home/arch-home/dthkash/.config/.git"] }
+2026-01-09T16:58:13+03:00 ERROR [crates/fs/src/fs_watcher.rs:216] Error { kind: WatchNotFound, paths: ["/home/arch-home/dthkash/.config/fontconfig"] }
+2026-01-09T16:58:13+03:00 ERROR [crates/fs/src/fs_watcher.rs:216] Error { kind: WatchNotFound, paths: ["/home/arch-home/dthkash/.config/gtk-3.0"] }
+2026-01-09T16:58:13+03:00 ERROR [crates/fs/src/fs_watcher.rs:216] Error { kind: WatchNotFound, paths: ["/home/arch-home/dthkash/.config/hypr"] }
+2026-01-09T16:58:13+03:00 ERROR [crates/fs/src/fs_watcher.rs:216] Error { kind: WatchNotFound, paths: ["/home/arch-home/dthkash/.config/hypr/conf"] }
