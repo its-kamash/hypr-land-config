@@ -885,3 +885,74 @@ try installing `rust-src` the same way you installed `rustc`
 2026-01-09T16:58:13+03:00 ERROR [crates/fs/src/fs_watcher.rs:216] Error { kind: WatchNotFound, paths: ["/home/arch-home/dthkash/.config/gtk-3.0"] }
 2026-01-09T16:58:13+03:00 ERROR [crates/fs/src/fs_watcher.rs:216] Error { kind: WatchNotFound, paths: ["/home/arch-home/dthkash/.config/hypr"] }
 2026-01-09T16:58:13+03:00 ERROR [crates/fs/src/fs_watcher.rs:216] Error { kind: WatchNotFound, paths: ["/home/arch-home/dthkash/.config/hypr/conf"] }
+2026-01-09T20:49:31+03:00 INFO  [zed] ========== starting zed version 0.218.6+stable, sha unknown ==========
+2026-01-09T20:49:31+03:00 INFO  [crashes] spawning crash handler process
+2026-01-09T20:49:31+03:00 WARN  [zed::reliability] Minidump endpoint not set
+2026-01-09T20:49:31+03:00 INFO  [extension_host] extensions updated. loading 4, reloading 0, unloading 0
+2026-01-09T20:49:31+03:00 INFO  [gpui::platform::linux::platform] activate is not implemented on Linux, ignoring the call
+2026-01-09T20:49:31+03:00 ERROR [crates/client/src/client.rs:357] DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2026-01-09T20:49:31+03:00 INFO  [worktree] inserting parent git repo for this worktree: "dotfiles"
+2026-01-09T20:49:31+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: PreMultiplied }
+2026-01-09T20:49:31+03:00 INFO  [util] set environment variables from shell:/bin/zsh, path:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/opt/rocm/bin
+2026-01-09T20:49:31+03:00 INFO  [workspace] Rendered first frame
+2026-01-09T20:49:31+03:00 INFO  [zed::zed] Using GPU: GpuSpecs { is_software_emulated: false, device_name: "AMD Radeon Graphics (RADV RENOIR)", driver_name: "radv", driver_info: "Mesa 25.3.3-arch1.1" }
+2026-01-09T20:49:31+03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8Unorm, alpha: Ignored }
+2026-01-09T20:49:31+03:00 INFO  [crashes] connected to crash handler process after 100ms
+2026-01-09T20:49:31+03:00 INFO  [crashes] crash handler registered
+2026-01-09T20:49:31+03:00 ERROR [agent] Failed to authenticate provider: Amazon Bedrock: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2026-01-09T20:50:18+03:00 INFO  [node_runtime] using Node.js found on PATH: SystemNodeRuntime { node: "/usr/bin/node", npm: "/usr/bin/npm", global_node_modules: "/usr/lib/node_modules\n", scratch_dir: "/home/arch-home/dthkash/.local/share/zed/node" }
+2026-01-09T20:50:20+03:00 INFO  [lsp] starting language server process. binary path: "/usr/bin/node", working directory: "/home/arch-home/dthkash/extrnl.files/dotfiles/dotfiles", args: ["/home/arch-home/dthkash/.local/share/zed/languages/vscode-css-language-server/node_modules/vscode-langservers-extracted/bin/vscode-css-language-server", "--stdio"]
+2026-01-09T20:50:21+03:00 INFO  [lsp] starting language server process. binary path: "/usr/bin/node", working directory: "/home/arch-home/dthkash/extrnl.files/dotfiles/dotfiles", args: ["/home/arch-home/dthkash/.local/share/zed/languages/tailwindcss-language-server/node_modules/.bin/tailwindcss-language-server", "--stdio"]
+2026-01-09T20:50:21+03:00 INFO  [lsp] Language server with id 2 sent unhandled notification @/tailwindCSS/projectInitialized:
+[
+  null
+]
+2026-01-09T20:51:17+03:00 INFO  [project::lsp_store] stopping language server vscode-css-language-server
+2026-01-09T20:51:17+03:00 INFO  [project::lsp_store] stopping language server tailwindcss-language-server
+2026-01-09T20:51:17+03:00 INFO  [lsp] Language server with id 2 sent unhandled notification @/tailwindCSS/projectsDestroyed:
+[
+  null
+]
+2026-01-09T20:51:17+03:00 ERROR [project::lsp_store] Failed to unregister server capabilities: no server 2 found
+2026-01-09T20:51:17+03:00 ERROR [project::lsp_store] Failed to unregister server capabilities: no server 2 found
+2026-01-09T20:51:17+03:00 ERROR [project::lsp_store] Failed to unregister server capabilities: no server 2 found
+2026-01-09T20:51:17+03:00 INFO  [lsp] starting language server process. binary path: "/usr/bin/node", working directory: "/home/arch-home/dthkash/extrnl.files/dotfiles/dotfiles", args: ["/home/arch-home/dthkash/.local/share/zed/languages/json-language-server/node_modules/vscode-langservers-extracted/bin/vscode-json-language-server", "--stdio"]
+2026-01-09T20:51:18+03:00 INFO  [lsp] starting language server process. binary path: "/home/arch-home/dthkash/.local/share/zed/languages/package-version-server/package-version-server-v0.0.10", working directory: "/home/arch-home/dthkash/extrnl.files/dotfiles/dotfiles", args: []
+2026-01-09T20:51:31+03:00 ERROR [language] missing required capture(s) in TOML indents TreeSitter query: indent
+2026-01-09T20:51:31+03:00 WARN  [language] unrecognized capture name 'comment' in TOML textobjects TreeSitter query
+2026-01-09T20:51:31+03:00 INFO  [project::lsp_store] stopping language server json-language-server
+2026-01-09T20:51:31+03:00 INFO  [project::lsp_store] stopping language server package-version-server
+2026-01-09T20:51:31+03:00 ERROR [lsp] Shutdown request failure, server package-version-server (id 4): Unexpected params: null
+2026-01-09T21:20:47+03:00 INFO  [lsp] starting language server process. binary path: "/usr/bin/node", working directory: "/home/arch-home/dthkash/extrnl.files/dotfiles/dotfiles", args: ["/home/arch-home/dthkash/.local/share/zed/languages/vscode-css-language-server/node_modules/vscode-langservers-extracted/bin/vscode-css-language-server", "--stdio"]
+2026-01-09T21:20:47+03:00 INFO  [lsp] starting language server process. binary path: "/usr/bin/node", working directory: "/home/arch-home/dthkash/extrnl.files/dotfiles/dotfiles", args: ["/home/arch-home/dthkash/.local/share/zed/languages/tailwindcss-language-server/node_modules/.bin/tailwindcss-language-server", "--stdio"]
+2026-01-09T21:20:48+03:00 INFO  [lsp] Language server with id 6 sent unhandled notification @/tailwindCSS/projectInitialized:
+[
+  null
+]
+2026-01-09T21:21:33+03:00 INFO  [lsp] Language server with id 6 sent unhandled notification @/tailwindCSS/projectInitialized:
+[
+  null
+]
+2026-01-09T21:21:52+03:00 INFO  [lsp] Language server with id 6 sent unhandled notification @/tailwindCSS/projectInitialized:
+[
+  null
+]
+2026-01-09T21:23:26+03:00 INFO  [lsp] starting language server process. binary path: "/usr/bin/node", working directory: "/home/arch-home/dthkash/extrnl.files/dotfiles/dotfiles", args: ["/home/arch-home/dthkash/.local/share/zed/languages/json-language-server/node_modules/vscode-langservers-extracted/bin/vscode-json-language-server", "--stdio"]
+2026-01-09T21:23:26+03:00 INFO  [lsp] starting language server process. binary path: "/home/arch-home/dthkash/.local/share/zed/languages/package-version-server/package-version-server-v0.0.10", working directory: "/home/arch-home/dthkash/extrnl.files/dotfiles/dotfiles", args: []
+2026-01-09T21:24:35+03:00 INFO  [lsp] Language server with id 6 sent unhandled notification @/tailwindCSS/projectInitialized:
+[
+  null
+]
+2026-01-09T21:28:24+03:00 INFO  [project::lsp_store] stopping language server vscode-css-language-server
+2026-01-09T21:28:24+03:00 INFO  [project::lsp_store] stopping language server tailwindcss-language-server
+2026-01-09T21:28:24+03:00 INFO  [project::lsp_store] stopping language server package-version-server
+2026-01-09T21:28:24+03:00 ERROR [lsp] Shutdown request failure, server package-version-server (id 8): Unexpected params: null
+2026-01-09T21:28:24+03:00 INFO  [lsp] Language server with id 6 sent unhandled notification @/tailwindCSS/projectsDestroyed:
+[
+  null
+]
+2026-01-09T21:28:24+03:00 INFO  [project::lsp_store] stopping language server json-language-server
+2026-01-09T21:28:24+03:00 ERROR [project::lsp_store] Failed to unregister server capabilities: no server 6 found
+2026-01-09T21:28:24+03:00 INFO  [lsp] starting language server process. binary path: "/usr/bin/node", working directory: "/home/arch-home/dthkash/extrnl.files/dotfiles/dotfiles", args: ["/home/arch-home/dthkash/.local/share/zed/languages/json-language-server/node_modules/vscode-langservers-extracted/bin/vscode-json-language-server", "--stdio"]
+2026-01-09T21:29:37+03:00 ERROR [gpui::platform::linux::platform] Failed to open with dbus: Portal request failed: org.freedesktop.zbus.Error: The name is not activatable
+2026-01-09T21:29:37+03:00 ERROR [gpui::platform::linux::platform] Failed to open with "xdg-open": No such file or directory (os error 2)

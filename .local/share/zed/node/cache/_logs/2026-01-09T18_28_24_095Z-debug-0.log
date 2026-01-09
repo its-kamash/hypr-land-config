@@ -1,16 +1,16 @@
 0 verbose cli /usr/bin/node /usr/bin/npm
-1 info using npm@11.6.4
+1 info using npm@11.7.0
 2 info using node@v25.2.1
 3 silly config load:file:/usr/lib/node_modules/npm/npmrc
 4 silly config load:file:/home/arch-home/dthkash/.npmrc
 5 silly config load:file:/etc/npmrc
 6 verbose title npm info vscode-langservers-extracted
 7 verbose argv "info" "--cache" "/home/arch-home/dthkash/.local/share/zed/node/cache" "vscode-langservers-extracted" "--json" "--fetch-retry-mintimeout" "2000" "--fetch-retry-maxtimeout" "5000" "--fetch-timeout" "5000"
-8 verbose logfile logs-max:10 dir:/home/arch-home/dthkash/.local/share/zed/node/cache/_logs/2025-12-26T10_47_57_446Z-
-9 verbose logfile /home/arch-home/dthkash/.local/share/zed/node/cache/_logs/2025-12-26T10_47_57_446Z-debug-0.log
-10 silly logfile start cleaning logs, removing 2 files
+8 verbose logfile logs-max:10 dir:/home/arch-home/dthkash/.local/share/zed/node/cache/_logs/2026-01-09T18_28_24_095Z-
+9 verbose logfile /home/arch-home/dthkash/.local/share/zed/node/cache/_logs/2026-01-09T18_28_24_095Z-debug-0.log
+10 silly logfile start cleaning logs, removing 1 files
 11 silly logfile done cleaning log files
-12 http fetch GET 200 https://registry.npmjs.org/vscode-langservers-extracted 960ms (cache revalidated)
+12 http fetch GET 200 https://registry.npmjs.org/vscode-langservers-extracted 494ms (cache revalidated)
 13 silly view {
 13 silly view   '4.10.0': {
 13 silly view     _id: 'vscode-langservers-extracted@4.10.0',
@@ -132,8 +132,8 @@
 13 silly view   }
 13 silly view }
 14 verbose cwd /home/arch-home/dthkash
-15 verbose os Linux 6.18.2-zen2-1-zen
+15 verbose os Linux 6.18.3-zen1-1-zen
 16 verbose node v25.2.1
-17 verbose npm  v11.6.4
+17 verbose npm  v11.7.0
 18 verbose exit 0
 19 info ok
