@@ -1,0 +1,100 @@
+@import "colors.css";
+* {
+    border: none;
+    font-family:
+        JetBrainsMono Nerd Font Propo,
+        Symbols Nerd Font Mono;
+    font-size: 16px;
+    min-height: 0;
+    padding: 0;
+    margin: 0;
+}
+
+window#waybar {
+    background: transparent;
+    color: @on_surface;
+    box-shadow: inset 0px 10px 6px alpha(@shadow, 0.45);
+}
+
+#workspaces {
+    padding: 0px 60px 0px 60px;
+    background: alpha(@surface_dim, 0.4);
+    border-radius: 0px 0px 17px 17px;
+}
+#workspaces button {
+    background: alpha(@on_surface, 0.9);
+    min-height: 10px;
+    min-width: 21px;
+    border-radius: 17px;
+    margin: 3px 0.4px;
+    transition: all 0.45s ease-out;
+}
+
+#workspaces button.active {
+    background: alpha(@on_primary, 0.9);
+    min-width: 60px;
+    border-radius: 17px;
+    transition: all 0.3s ease;
+}
+
+#clock {
+    padding: 0px 16px;
+    background-color: @inverse_primary;
+    color: @on_primary;
+    border-radius: 0px 0px 17px 0px;
+    transition: all 0.25s ease-out;
+    font-weight: 900;
+    min-height: 10px;
+}
+
+#battery,
+#backlight,
+#network,
+#bluetooth,
+#pulseaudio {
+    margin: 0px 1px;
+    min-height: 10px;
+}
+#battery {
+    background-color: @tertiary_container;
+    color: @on_tertiary_container;
+    border-radius: 12px;
+    padding: 0px 7px;
+    transition: all 0.25s ease-in-out;
+}
+
+#battery.charging {
+    color: @on_tertiary_fixed;
+    background-color: @tertiary_fixed;
+    padding-right: 7px;
+}
+
+#battery.warning:not(.charging) {
+    background: @error;
+    color: @on_error;
+    animation-name: blink;
+    animation-duration: 1s;
+    animation-timing-function: steps(12);
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#backlight {
+    padding: 0px 10px;
+    background: @tertiary;
+    color: @on_tertiary;
+    border-radius: 12px;
+}
+#pulseaudio {
+    padding: 0px 10px;
+    background: @secondary_container;
+    color: @on_secondary_container;
+    border-radius: 12px;
+}
+#bluetooth,
+#network {
+    color: @on_surface;
+    background: alpha(@surface, 0.2);
+    padding: 0px 7px;
+    border-radius: 12px;
+}

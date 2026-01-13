@@ -16,7 +16,7 @@ color7 = '{{colors.surface.default.hex}}'
 color8 = '{{colors.primary.default.hex}}'
 color9 = '{{colors.tertiary.default.hex}}'
 
-# Prompt symbols 
+# Prompt symbols
 [character]
 success_symbol = "[🞈](color9 bold)"
 error_symbol = "[🞈](@{error})"
@@ -29,7 +29,7 @@ format = "[](fg:color1 bg:color4)[󰉋](bg:color1 fg:color2)[ ](fg:color1 
 "Documents" = "󰈙 "
 "Downloads" = " "
 "Music" = " "
-"Pictures" = " "
+"wallpapers" = " "
 
 [git_branch]
 format = "[](fg:color8 bg:color4)[ ](bg:color8 fg:color5)[](fg:color8 bg:color4)[(bg:color8 fg:color5) $branch](fg:color3 bg:color4)[](fg:color4) "
