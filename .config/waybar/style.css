@@ -1,4 +1,16 @@
 @import "colors.css";
+
+@keyframes blink-animation {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 * {
     border: none;
     font-family:
@@ -22,6 +34,15 @@ window#waybar {
     border-radius: 0px 0px 17px 17px;
 }
 #workspaces button {
+    background: alpha(@on_tertiary_fixed_variant, 0.9);
+    min-height: 10px;
+    min-width: 29px;
+    border-radius: 17px;
+    margin: 3px 0.4px;
+    transition: all 0.45s ease-out;
+}
+
+#workspaces button.empty {
     background: alpha(@on_surface, 0.9);
     min-height: 10px;
     min-width: 21px;
@@ -72,9 +93,15 @@ window#waybar {
 #battery.warning:not(.charging) {
     background: @error;
     color: @on_error;
-    animation-name: blink;
-    animation-duration: 1s;
-    animation-timing-function: steps(12);
+}
+
+#battery.critical:not(.charging) {
+    background: @error;
+    color: @on_error;
+    transition: all 0.25s ease-out;
+    animation-name: blink-animation;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
@@ -97,4 +124,10 @@ window#waybar {
     background: alpha(@surface, 0.2);
     padding: 0px 7px;
     border-radius: 12px;
+}
+#custom-notification {
+    background: @primary_fixed_dim;
+    color: @on_primary_fixed_variant;
+    border-radius: 12px;
+    padding: 0px 6px;
 }

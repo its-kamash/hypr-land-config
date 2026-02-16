@@ -6,7 +6,7 @@ eval "$(dircolors ~/.dircolors)"
 fastfetch
 
 # Run fastfetch after clearing the terminal
-alias clear='clear && fastfetch'
+alias cf='clear && fastfetch'
 alias ls='ls --color=auto'
 
 # Loading autosuggestions
@@ -17,3 +17,5 @@ source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 export ROCM_PATH=/opt/rocm
 export HSA_OVERRIDE_GFX_VERSION=9.0.0
 export STARSHIP_CONFIG=~/.config/starship/starship.toml
+
+export GOPATH=$HOME/golib

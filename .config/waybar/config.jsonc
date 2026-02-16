@@ -11,6 +11,7 @@
     "pulseaudio",
     "network",
     "bluetooth",
+    "custom/notification",
   ],
   // Section defining modules on the right
   // modules on the right
@@ -28,6 +29,8 @@
     "format": "{icon} {capacity}%",
 
     "format-warning": "󰚽 {icon} {capacity}%",
+    "format-critical": "󰚽 {icon} {capacity}%",
+
     "format-icons": {
       "charging": ["󰢟", "󰢜", "󰂆", "󰂇", "󰂈", "󰢝", "󰂉", "󰢞", "󰂊", "󰂋", "󰂅"],
       "default": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
@@ -66,6 +69,26 @@
     "on-click": "pavucontrol",
     "ignored-sinks": ["Easy Effects Sink"],
   },
+  "custom/notification": {
+    "tooltip": true,
+    "format": "<span size='16pt'>{icon}</span>",
+    "format-icons": {
+      "notification": "󱅫",
+      "none": "󰂜",
+      "dnd-notification": "󰂠",
+      "dnd-none": "󰪓",
+      "inhibited-notification": "󰂛",
+      "inhibited-none": "󰪑",
+      "dnd-inhibited-notification": "󰂛",
+      "dnd-inhibited-none": "󰪑",
+    },
+    "return-type": "json",
+    "exec-if": "which swaync-client",
+    "exec": "swaync-client -swb",
+    "on-click": "swaync-client -t -sw",
+    "on-click-right": "swaync-client -d -sw",
+    "escape": true,
+  },
   // modules on the left
   "clock": {
     "interval": 60,
@@ -77,7 +100,7 @@
   "hyprland/workspaces": {
     "persistent-workspaces": {
       // "all-outputs": true,
-      "*": 7, // 5 workspaces by default on every monitor
+      "*": 5, // 5 workspaces by default on every monitor
     },
     "format": "",
   },
